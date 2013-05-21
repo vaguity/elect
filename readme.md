@@ -1,0 +1,3 @@
+# Elect
+
+## A WordPress theme.
