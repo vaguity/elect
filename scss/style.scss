@@ -3,25 +3,46 @@
 
 // Global
 
+$total-columns: 12;
+$column-width: 5em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
+#container {
+	@include container;
+}
+
 // Header
 
 header {
-	
+	clear: both;
+}
+
+// Primary navigation
+
+nav#primary-navigation {
+	clear: both;
 }
 
 // Main content
 
 #main {
-
+	@include span-columns(9,12);
 }
 
 // Sidebar
 
 aside#sidebar {
+	@include span-columns(3 omega,12);
+}
 
+// Footer
+
+footer {
+	clear: both;
 }

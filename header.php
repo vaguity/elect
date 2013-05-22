@@ -52,19 +52,19 @@
     <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
   <![endif]-->
 
-  <div id="container">
-    <header id="header" role="banner">
-      <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-      <p class="description"><?php bloginfo('description'); ?></p>
-    </header>
+<div id="container">
+  <header id="header" role="banner">
+    <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+    <p class="description"><?php bloginfo('description'); ?></p>
+  </header>
 
-    <nav id="primary-navigation">
-      <?php wp_nav_menu(
-        array(
-          'theme_location' => 'primary-navigation',
-          'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-          'before' => '',
-          'after' => ''
-        )
-      ); ?>
-    </nav>
+  <nav id="primary-navigation">
+    <?php wp_nav_menu(
+      array(
+        'theme_location' => 'primary-navigation',
+        'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+        'before' => '',
+        'after' => ''
+      )
+    ); ?>
+  </nav>

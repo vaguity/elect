@@ -2,3 +2,45 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
+
+#container {
+  *zoom: 1;
+  max-width: 71em;
+  _width: 71em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  clear: both;
+}
+
+nav#primary-navigation {
+  clear: both;
+}
+
+#main {
+  width: 74.64789%;
+  float: left;
+  margin-right: 1.40845%;
+  display: inline;
+}
+
+aside#sidebar {
+  width: 23.94366%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+footer {
+  clear: both;
+}
