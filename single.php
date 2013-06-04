@@ -58,8 +58,8 @@ get_header(); ?>
 
 <?php endif; ?>
 
-</div>
+<?php get_sidebar(); ?>
 
-<?php dynamic_sidebar( 'global-sidebar' ); ?>
+</div><!-- #main -->
 
 <?php get_footer(); ?>

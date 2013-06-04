@@ -22,8 +22,8 @@ get_header(); ?>
 
   <?php /* comments_template(); */ ?>
 
-</div>
-
 <?php get_sidebar(); ?>
+
+</div><!-- #main -->
 
 <?php get_footer(); ?>

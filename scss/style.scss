@@ -1,48 +1,95 @@
 // Importing Susy responsive framework
 @import "susy";
 
-// Global
-
-$total-columns: 12;
-$column-width: 5em;
-$gutter-width: 1em;
-$grid-padding: $gutter-width;
+// Grid setup
+$total-columns: 4;
+$column-width: 23%;
+$gutter-width: 2%;
+$grid-padding: 1%;
+// Breakpoints
+$tablet: 6;
+$computer: 800px 12;
 
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 
-#container {
-	@include container;
+header#header, nav#primary-navigation, #main, footer#footer {
+	@include container($total-columns, $tablet, $computer);
 }
 
 // Header
-
-header {
+header#header {
 	clear: both;
 }
 
 // Primary navigation
-
 nav#primary-navigation {
 	clear: both;
+	ul {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		li {
+			display: inline;
+		}
+	}
 }
 
-// Main content
-
+// Main content container
 #main {
-	@include span-columns(9,12);
+
+}
+
+// Content
+article {
+
 }
 
 // Sidebar
-
 aside#sidebar {
-	@include span-columns(3 omega,12);
+	text-align: center;
 }
 
 // Footer
-
-footer {
+footer#footer {
 	clear: both;
+	display: block;
+	border-top: 10px solid black;
+	background-color: black;
+	color: #fff;
+	.copyright {
+		text-align: left;
+		@include span-columns($total-columns / 2,$total-columns);
+	}
+
+	.credit {
+		text-align: right;
+		@include span-columns($total-columns / 2 omega,$total-columns);
+	}
+}
+
+// Computer breakpoint
+@include at-breakpoint($computer) {
+	// Content
+	article {
+		@include span-columns(8,12);
+	}
+
+	// Sidebar
+	aside#sidebar {
+		@include prefix(.5);
+		@include span-columns(3.5 omega,12);
+	}
+
+	footer#footer {
+		.copyright {
+			@include span-columns(6,12);
+		}
+
+		.credit {
+			@include span-columns(6 omega,12);
+		}
+	}
 }

@@ -5,15 +5,11 @@
  */
 ?>
 
-  <footer>
-      <p>
-        <?php bloginfo('name'); ?> is proudly powered by
-        <a href="http://wordpress.org/">WordPress</a>, and built using the <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>.
-        <br /><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a>.
-        <!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
-      </p>
+  <footer id="footer">
+      <p class="copyright">&copy; <a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></p>
+      <p class="credit">Site built by <a href="http://www.uptownpoliticalconsulting.com/">Uptown Political Consulting</a>.</p>
   </footer>
-</div> <!--! end of #container -->
+</div> <!-- #container -->
 
   <!-- Javascript at the bottom for fast page loading -->
 
@@ -30,12 +26,14 @@
        Add this section from HTML Boilerplate manually (html5-boilerplate/index.html), or use a Google Analytics WordPress Plugin-->
 	   
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <!--
   <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
+  -->
 			   
   <?php wp_footer(); ?>
 

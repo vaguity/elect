@@ -1,6 +1,6 @@
 <?php
 
-// Unregistering the HTML5 Boilerplate sidebar
+// Unregister the HTML5 Boilerplate sidebar
 
 function remove_html5bp_sidebar() {
 	unregister_sidebar( 'sidebar-1' );
@@ -15,8 +15,8 @@ function register_global_sidebar() {
 		'name' => __( 'Global Sidebar' ),
 		'id' => 'global-sidebar',
 		'description' => __( 'The global sidebar appears on most pages on the site.' ),
-		'before_widget' => '',
-		'after_widget' => '',
+		'before_widget' => "\n\t",
+		'after_widget' => "\n",
 		'before_title' => '<h3>',
 		'after_title' => '</h3>'
 	));
@@ -36,5 +36,10 @@ function register_custom_menus() {
 }
 
 add_action( 'init', 'register_custom_menus' );
+
+// Add custom theme options
+if (is_admin()) {
+	require_once ( get_stylesheet_directory() . '/inc/elect-theme-options.php' );
+}
 
 ?>

@@ -56,6 +56,18 @@
   <header id="header" role="banner">
     <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
     <p class="description"><?php bloginfo('description'); ?></p>
+
+    <nav id="social-navigation">
+      <?php wp_nav_menu(
+        array(
+          'theme_location' => 'social-navigation',
+          'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+          'before' => '',
+          'after' => '',
+          'fallback_cb' => false
+        )
+      ); ?>
+    </nav>
   </header>
 
   <nav id="primary-navigation">
@@ -64,7 +76,8 @@
         'theme_location' => 'primary-navigation',
         'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
         'before' => '',
-        'after' => ''
+        'after' => '',
+        'depth' => 1
       )
     ); ?>
   </nav>

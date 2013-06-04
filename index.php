@@ -37,9 +37,10 @@ get_header(); ?>
     <?php get_search_form(); ?>
 
   <?php endif; ?>
-</div>
 
-<?php dynamic_sidebar( 'global-sidebar' ); ?>
+<?php get_sidebar(); ?>
+
+</div><!-- #main -->
 
 <?php get_footer(); ?>
 
