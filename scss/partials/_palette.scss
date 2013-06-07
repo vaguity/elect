@@ -1,0 +1,50 @@
+$black: #000;
+$white: #fff;
+$dark: #333;
+$light: #eee;
+
+// Terra Cotta (Bill Raines)
+#container.terracotta {
+	$accent1: #ee3e41; // red
+	$accent2: #ffb7a7; // salmon
+	$light: #f4ffff; // off-white
+	$dark: #060054; // dark blue
+	$midtone: #cfcfcf; // gray
+	$display: "Franklin Gothic Book";
+	$body: Georgia;
+
+	color: $light;
+	background-color: $accent1;
+	font-family: $body;
+
+	a {
+		&:link { color: $accent2; text-decoration: underline; }
+		&:visited { color: $accent2; text-decoration: underline; }
+		&:hover { color: $light; text-decoration: none; }
+		&:active { color: $light; text-decoration: none; position: relative; top: 1px; }
+	}
+
+	footer#footer {
+		background-color: $light;
+		color: $dark;
+		border-top: 4px solid $dark;
+		a {
+			&:link { color: $accent1; text-decoration: underline; }
+			&:visited { color: $accent1; text-decoration: underline; }
+			&:hover { color: $dark; text-decoration: none; }
+			&:active { color: $dark; position: relative; top: 1px; }
+		}
+	}
+}
+
+// Greenleaf (Mike Otto)
+#container.greenleaf {
+	$accent1: #418a26; // green
+	$accent2: #010549; // dark blue
+	$light: #f9f9f9; // off-white
+	$dark: #323449; // slate gray
+	$midtone: #e6e6e6; // light gray
+
+
+
+}
