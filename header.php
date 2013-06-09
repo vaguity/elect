@@ -52,7 +52,23 @@
     <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
   <![endif]-->
 
-<div id="container" class="terracotta">
+<div id="container" <?php
+  $options = get_option('elect_theme_options');
+  if ($options['palette'] == 1) {
+    echo 'class="terracotta ';
+  }
+  elseif ($options['palette'] == 2) {
+    echo 'class="greenleaf ';
+  }
+  else { }
+
+  if ($options['side'] == 'right') {
+    echo 'sideright"';
+  }
+  else {
+    echo 'sideleft"';
+  }
+?>>
   <header id="header" role="banner">
     <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
     <p class="description"><?php bloginfo('description'); ?></p>
@@ -76,7 +92,7 @@
         'theme_location' => 'primary-navigation',
         'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
         'before' => '',
-        'after' => '',
+        'after' => '&nbsp;&nbsp;&nbsp;&nbsp;',
         'depth' => 1
       )
     ); ?>

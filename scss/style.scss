@@ -1,5 +1,7 @@
 // Importing Susy responsive framework
 @import "susy";
+// Importing Sassy Buttons extension
+@import "sassy-buttons";
 // Importing palettes
 @import "partials/palette";
 
@@ -57,6 +59,7 @@ header#header {
 // Primary navigation
 nav#primary-navigation {
 	clear: both;
+	font-size: 1.5em;
 	ul {
 		margin: 0;
 		padding: 0;
@@ -64,6 +67,7 @@ nav#primary-navigation {
 		li {
 			display: inline;
 			a {
+				padding: 0 10px 0 2px;
 				&:link { text-decoration: none !important; }
 				&:visited { text-decoration: none !important; }
 				&:hover { text-decoration: none !important; }
@@ -75,7 +79,7 @@ nav#primary-navigation {
 
 // Main content container
 #main {
-
+	margin-bottom: 40px;
 }
 
 // Content
@@ -90,6 +94,7 @@ aside#sidebar {
 
 // Footer
 footer#footer {
+	font-size: 12px;
 	clear: both;
 	display: block;
 	.copyright {
@@ -105,16 +110,34 @@ footer#footer {
 
 // Computer breakpoint
 @include at-breakpoint($computer) {
-	// Content
-	article {
-		@include span-columns(8,12);
+	// Content, left side
+	#container.sideright #main article {
+		@include span-columns(7.5,12);
+		@include prefix(.5);
 	}
 
-	// Sidebar
-	aside#sidebar {
+	// Sidebar, right side
+	#container.sideright #main aside#sidebar {
 		@include prefix(.5);
-		@include span-columns(3.5 omega,12);
+		@include suffix(.5);
+		@include span-columns(3 omega,12);
+		text-align: right;
 	}
+
+	// Content, right side
+	#container.sideleft #main article {
+		@include span-columns(7.5 omega, 12);
+		@include suffix(.5)
+	}
+
+	// Sidebar, left side
+	#container.sideleft #main aside#sidebar {
+		@include span-columns(3,12);
+		@include prefix(.5);
+		@include suffix(.5);
+		text-align: left;
+	}
+
 
 	footer#footer {
 		.copyright {

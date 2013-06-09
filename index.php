@@ -7,6 +7,12 @@
 get_header(); ?>
 
 <div id="main" role="main">
+
+  <?php
+    $options = get_option('elect_theme_options');
+    if ($options['side'] == 'left') { get_sidebar(); };
+  ?>
+
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
 
@@ -38,10 +44,12 @@ get_header(); ?>
 
   <?php endif; ?>
 
-<?php get_sidebar(); ?>
+  <?php
+    $options = get_option('elect_theme_options');
+    if ($options['side'] == 'left') { }
+    else { get_sidebar(); };
+  ?>
 
 </div><!-- #main -->
 
 <?php get_footer(); ?>
-
-

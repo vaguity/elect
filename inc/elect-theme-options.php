@@ -42,20 +42,24 @@ $palette_options = array(
 	),
 	'1' => array(
 		'value' =>	'1',
-		'label' => __( 'One', 'electtheme' )
+		'label' => __( 'Terracotta', 'electtheme' )
+	),
+	'2' => array(
+		'value' =>	'2',
+		'label' => __( 'Greenleaf', 'electtheme' )
 	)
 );
 
-$typography_options = array(
-	'0' => array(
-		'value' =>	'0',
-		'label' => __( '1Zero', 'electtheme' )
-	),
-	'1' => array(
-		'value' =>	'1',
-		'label' => __( '1One', 'electtheme' )
-	)
-);
+// $typography_options = array(
+// 	'0' => array(
+// 		'value' =>	'0',
+// 		'label' => __( '1Zero', 'electtheme' )
+// 	),
+// 	'1' => array(
+// 		'value' =>	'1',
+// 		'label' => __( '1One', 'electtheme' )
+// 	)
+// );
 
 /**
  * Create the options page
@@ -96,9 +100,9 @@ function theme_options_do_page() {
 				?>
 				<tr valign="top"><th scope="row"><?php _e( 'Palette', 'electtheme' ); ?></th>
 					<td>
-						<select name="elect_theme_options[selectinput]">
+						<select name="elect_theme_options[palette]">
 							<?php
-								$selected = $options['selectinput'];
+								$selected = $options['palette'];
 								$p = '';
 								$r = '';
 
@@ -112,7 +116,7 @@ function theme_options_do_page() {
 								echo $p . $r;
 							?>
 						</select>
-						<label class="description" for="elect_theme_options[selectinput]"></label>
+						<label class="description" for="elect_theme_options[palette]"></label>
 					</td>
 				</tr>
 
@@ -121,11 +125,11 @@ function theme_options_do_page() {
 				 * Typography dropdown
 				 */
 				?>
-				<tr valign="top"><th scope="row"><?php _e( 'Typography', 'electtheme' ); ?></th>
+<!-- 				<tr valign="top"><th scope="row"><?php _e( 'Typography', 'electtheme' ); ?></th>
 					<td>
-						<select name="elect_theme_options[selectinput]">
+						<select name="elect_theme_options[typography]">
 							<?php
-								$selected = $options['selectinput'];
+								$selected = $options['typography'];
 								$p = '';
 								$r = '';
 
@@ -141,7 +145,7 @@ function theme_options_do_page() {
 						</select>
 						<label class="description" for="elect_theme_options[selectinput]"></label>
 					</td>
-				</tr>
+				</tr> -->
 
 				<?php
 				/**
@@ -189,12 +193,12 @@ function theme_options_validate( $input ) {
 	global $palette_options, $typography_options, $side_options;
 
 	// Select option must actually be in our array of select options
-	if ( ! array_key_exists( $input['selectinput'], $palette_options ) )
-		$input['selectinput'] = null;
+	if ( ! array_key_exists( $input['palette'], $palette_options ) )
+		$input['palette'] = null;
 
 	// Select option must actually be in our array of select options
-	if ( ! array_key_exists( $input['selectinput'], $typography_options ) )
-		$input['selectinput'] = null;
+	// if ( ! array_key_exists( $input['typography'], $typography_options ) )
+	// 	$input['typography'] = null;
 
 	// Our side option must actually be in our array of radio options
 	if ( ! isset( $input['side'] ) )

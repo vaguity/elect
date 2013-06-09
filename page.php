@@ -7,6 +7,12 @@
 get_header(); ?>
 
 <div id="main" role="main">
+
+  <?php
+    $options = get_option('elect_theme_options');
+    if ($options['side'] == 'left') { get_sidebar(); };
+  ?>
+
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <article class="post" id="post-<?php the_ID(); ?>">
     <header>
@@ -22,7 +28,11 @@ get_header(); ?>
 
   <?php /* comments_template(); */ ?>
 
-<?php get_sidebar(); ?>
+  <?php
+    $options = get_option('elect_theme_options');
+    if ($options['side'] == 'left') { }
+    else { get_sidebar(); };
+  ?>
 
 </div><!-- #main -->
 

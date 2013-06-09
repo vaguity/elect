@@ -1,7 +1,7 @@
 #container.terracotta {
   color: #f4ffff;
   background-color: #ee3e41;
-  font-family: Georgia;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 #container.terracotta a:link {
   color: #ffb7a7;
@@ -40,6 +40,78 @@
 }
 #container.terracotta footer#footer a:active {
   color: #060054;
+  position: relative;
+  top: 1px;
+}
+
+#container.greenleaf {
+  color: #323449;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+#container.greenleaf a:link {
+  color: #010549;
+  text-decoration: underline;
+}
+#container.greenleaf a:visited {
+  color: #010549;
+  text-decoration: underline;
+}
+#container.greenleaf a:hover {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+#container.greenleaf a:active {
+  color: #f9f9f9;
+  text-decoration: none;
+  position: relative;
+  top: 1px;
+}
+#container.greenleaf header#header, #container.greenleaf nav#primary-navigation {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #418a26;
+}
+#container.greenleaf header#header a:link, #container.greenleaf nav#primary-navigation a:link {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+#container.greenleaf header#header a:visited, #container.greenleaf nav#primary-navigation a:visited {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+#container.greenleaf header#header a:hover, #container.greenleaf nav#primary-navigation a:hover {
+  color: #010549;
+  text-decoration: none;
+}
+#container.greenleaf header#header a:active, #container.greenleaf nav#primary-navigation a:active {
+  color: #010549;
+  position: relative;
+  top: 1px;
+}
+#container.greenleaf nav#primary-navigation {
+  border-bottom: 4px solid #323449;
+}
+#container.greenleaf #main h1, #container.greenleaf #main h2, #container.greenleaf #main h3, #container.greenleaf #main h4, #container.greenleaf #main h5, #container.greenleaf #main h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#container.greenleaf footer#footer {
+  background-color: #f9f9f9;
+  color: #323449;
+  border-top: 4px solid #323449;
+}
+#container.greenleaf footer#footer a:link {
+  color: #418a26;
+  text-decoration: none;
+}
+#container.greenleaf footer#footer a:visited {
+  color: #418a26;
+  text-decoration: none;
+}
+#container.greenleaf footer#footer a:hover {
+  color: #323449;
+  text-decoration: none;
+}
+#container.greenleaf footer#footer a:active {
+  color: #323449;
   position: relative;
   top: 1px;
 }
@@ -130,6 +202,7 @@ header#header h1 {
 
 nav#primary-navigation {
   clear: both;
+  font-size: 1.5em;
 }
 nav#primary-navigation ul {
   margin: 0;
@@ -138,6 +211,9 @@ nav#primary-navigation ul {
 }
 nav#primary-navigation ul li {
   display: inline;
+}
+nav#primary-navigation ul li a {
+  padding: 0 10px 0 2px;
 }
 nav#primary-navigation ul li a:link {
   text-decoration: none !important;
@@ -153,11 +229,16 @@ nav#primary-navigation ul li a:active {
   top: 1px;
 }
 
+#main {
+  margin-bottom: 40px;
+}
+
 aside#sidebar {
   text-align: center;
 }
 
 footer#footer {
+  font-size: 12px;
   clear: both;
   display: block;
 }
@@ -178,17 +259,36 @@ footer#footer .credit {
 }
 
 @media (min-width: 760px) {
-  article {
-    width: 66.44295%;
+  #container.sideright #main article {
+    width: 62.58389%;
     float: left;
     margin-right: 0.67114%;
+    padding-left: 3.85906%;
   }
 
-  aside#sidebar {
+  #container.sideright #main aside#sidebar {
     padding-left: 3.85906%;
-    width: 29.02685%;
+    padding-right: 3.85906%;
+    width: 24.49664%;
     float: right;
     margin-right: 0;
+    text-align: right;
+  }
+
+  #container.sideleft #main article {
+    width: 62.58389%;
+    float: right;
+    margin-right: 0;
+    padding-right: 3.85906%;
+  }
+
+  #container.sideleft #main aside#sidebar {
+    width: 24.49664%;
+    float: left;
+    margin-right: 0.67114%;
+    padding-left: 3.85906%;
+    padding-right: 3.85906%;
+    text-align: left;
   }
 
   footer#footer .copyright {
