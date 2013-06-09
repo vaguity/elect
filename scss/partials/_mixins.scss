@@ -1,0 +1,59 @@
+// Default variables
+$black: #000;
+$white: #fff;
+$dark: #333;
+$light: #eee;
+
+$accent1: #ee3e41; // red
+$accent2: #ffb7a7; // salmon
+$light: #f4ffff; // off-white
+$dark: #060054; // dark blue
+$midtone: #cfcfcf; // gray
+$display: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+$body: Georgia, Times, "Times New Roman", serif;
+
+// Mixin for the specific stylesheets used by _palette
+@mixin elect-style {	
+	color: $dark;
+	font-family: $body;
+
+	a {
+		&:link { color: $accent1; text-decoration: underline; }
+		&:visited { color: $accent1; text-decoration: underline; }
+		&:hover { color: $light; text-decoration: none; }
+		&:active { color: $light; text-decoration: none; position: relative; top: 1px; }
+	}
+
+	header#header, nav#primary-navigation {
+		font-family: $display;
+		background-color: $accent1;
+		a {
+			&:link { color: $light; text-decoration: none; }
+			&:visited { color: $light; text-decoration: none; }
+			&:hover { color: $accent2; text-decoration: none; }
+			&:active { color: $accent2; position: relative; top: 1px; }
+		}
+	}
+
+	nav#primary-navigation {
+		border-bottom: 4px solid $dark;
+	}
+
+	#main {
+		h1, h2, h3, h4, h5, h6 {
+			font-family: $display;
+		}
+	}
+
+	footer#footer {
+		background-color: $light;
+		color: $dark;
+		border-top: 4px solid $dark;
+		a {
+			&:link { color: $accent1; text-decoration: none; }
+			&:visited { color: $accent1; text-decoration: none; }
+			&:hover { color: $dark; text-decoration: none; }
+			&:active { color: $dark; position: relative; top: 1px; }
+		}
+	}
+}

@@ -3,6 +3,7 @@
 // Importing Sassy Buttons extension
 @import "sassy-buttons";
 // Importing palettes
+@import "partials/mixins";
 @import "partials/palette";
 
 // Grid setup
@@ -60,6 +61,7 @@ header#header {
 nav#primary-navigation {
 	clear: both;
 	font-size: 1.5em;
+	line-height: 2em;
 	ul {
 		margin: 0;
 		padding: 0;

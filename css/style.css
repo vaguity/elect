@@ -1,14 +1,13 @@
 #container.terracotta {
-  color: #f4ffff;
-  background-color: #ee3e41;
+  color: #060054;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 #container.terracotta a:link {
-  color: #ffb7a7;
+  color: #ee3e41;
   text-decoration: underline;
 }
 #container.terracotta a:visited {
-  color: #ffb7a7;
+  color: #ee3e41;
   text-decoration: underline;
 }
 #container.terracotta a:hover {
@@ -21,6 +20,33 @@
   position: relative;
   top: 1px;
 }
+#container.terracotta header#header, #container.terracotta nav#primary-navigation {
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  background-color: #ee3e41;
+}
+#container.terracotta header#header a:link, #container.terracotta nav#primary-navigation a:link {
+  color: #f4ffff;
+  text-decoration: none;
+}
+#container.terracotta header#header a:visited, #container.terracotta nav#primary-navigation a:visited {
+  color: #f4ffff;
+  text-decoration: none;
+}
+#container.terracotta header#header a:hover, #container.terracotta nav#primary-navigation a:hover {
+  color: #ffb7a7;
+  text-decoration: none;
+}
+#container.terracotta header#header a:active, #container.terracotta nav#primary-navigation a:active {
+  color: #ffb7a7;
+  position: relative;
+  top: 1px;
+}
+#container.terracotta nav#primary-navigation {
+  border-bottom: 4px solid #060054;
+}
+#container.terracotta #main h1, #container.terracotta #main h2, #container.terracotta #main h3, #container.terracotta #main h4, #container.terracotta #main h5, #container.terracotta #main h6 {
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
 #container.terracotta footer#footer {
   background-color: #f4ffff;
   color: #060054;
@@ -28,11 +54,11 @@
 }
 #container.terracotta footer#footer a:link {
   color: #ee3e41;
-  text-decoration: underline;
+  text-decoration: none;
 }
 #container.terracotta footer#footer a:visited {
   color: #ee3e41;
-  text-decoration: underline;
+  text-decoration: none;
 }
 #container.terracotta footer#footer a:hover {
   color: #060054;
@@ -49,11 +75,11 @@
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 #container.greenleaf a:link {
-  color: #010549;
+  color: #418a26;
   text-decoration: underline;
 }
 #container.greenleaf a:visited {
-  color: #010549;
+  color: #418a26;
   text-decoration: underline;
 }
 #container.greenleaf a:hover {
@@ -203,6 +229,7 @@ header#header h1 {
 nav#primary-navigation {
   clear: both;
   font-size: 1.5em;
+  line-height: 2em;
 }
 nav#primary-navigation ul {
   margin: 0;
