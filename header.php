@@ -70,8 +70,20 @@
   }
 ?>>
   <header id="header" role="banner">
-    <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-    <p class="description"><?php bloginfo('description'); ?></p>
+    <h1><a href="<?php echo get_option('home'); ?>/">
+    <?php
+      if ($options['logourl']) {
+        $bloginfo_name = get_bloginfo('name');
+        echo '<img src="' . $options['logourl'] . '" alt="' . $bloginfo_name . '" />';
+      }
+      else { bloginfo('name'); }
+    ?>
+    </a></h1>
+    <?php if (bloginfo('description')) {
+      echo '<p class="description">'; bloginfo('description'); echo '</p>';
+      }
+      else { }
+    ?>
 
     <nav id="social-navigation">
       <?php wp_nav_menu(

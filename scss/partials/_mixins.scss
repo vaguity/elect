@@ -20,8 +20,8 @@ $body: Georgia, Times, "Times New Roman", serif;
 	a {
 		&:link { color: $accent1; text-decoration: underline; }
 		&:visited { color: $accent1; text-decoration: underline; }
-		&:hover { color: $light; text-decoration: none; }
-		&:active { color: $light; text-decoration: none; position: relative; top: 1px; }
+		&:hover { color: lighten($accent1,20%); text-decoration: none; }
+		&:active { color: lighten($accent1,20%); text-decoration: none; position: relative; top: 1px; }
 	}
 
 	header#header, nav#primary-navigation {

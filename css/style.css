@@ -11,11 +11,11 @@
   text-decoration: underline;
 }
 #container.terracotta a:hover {
-  color: #f4ffff;
+  color: #f69c9d;
   text-decoration: none;
 }
 #container.terracotta a:active {
-  color: #f4ffff;
+  color: #f69c9d;
   text-decoration: none;
   position: relative;
   top: 1px;
@@ -83,11 +83,11 @@
   text-decoration: underline;
 }
 #container.greenleaf a:hover {
-  color: #f9f9f9;
+  color: #6dcd49;
   text-decoration: none;
 }
 #container.greenleaf a:active {
-  color: #f9f9f9;
+  color: #6dcd49;
   text-decoration: none;
   position: relative;
   top: 1px;
@@ -223,7 +223,11 @@ header#header {
   clear: both;
 }
 header#header h1 {
-  margin-top: 0;
+  margin: 0;
+}
+header#header h1 img {
+  max-height: 300px;
+  max-width: 100%;
 }
 
 nav#primary-navigation {
@@ -258,6 +262,9 @@ nav#primary-navigation ul li a:active {
 
 #main {
   margin-bottom: 40px;
+}
+#main ul {
+  list-style-type: square;
 }
 
 aside#sidebar {
