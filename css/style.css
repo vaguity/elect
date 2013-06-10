@@ -287,29 +287,29 @@ footer#footer .credit {
   -o-border-radius: 10px;
   border-radius: 10px;
   *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFB7A7', endColorstr='#FFFF6441');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffb7a7), color-stop(100%, #ee3e41));
-  background: -webkit-linear-gradient(#ffb7a7, #ee3e41);
-  background: -moz-linear-gradient(#ffb7a7, #ee3e41);
-  background: -o-linear-gradient(#ffb7a7, #ee3e41);
-  background: linear-gradient(#ffb7a7, #ee3e41);
-  -webkit-box-shadow: #fff6f3 0 1px 0 inset;
-  -moz-box-shadow: #fff6f3 0 1px 0 inset;
-  box-shadow: #fff6f3 0 1px 0 inset;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ee3e41));
+  background: -webkit-linear-gradient(#ffffff, #ee3e41);
+  background: -moz-linear-gradient(#ffffff, #ee3e41);
+  background: -o-linear-gradient(#ffffff, #ee3e41);
+  background: linear-gradient(#ffffff, #ee3e41);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
   border: 1px solid #ec272a;
-  color: black;
-  text-shadow: #f7a3a5 0 1px 0;
+  color: #060054;
+  text-shadow: #f9b8b9 0 1px 0;
 }
 #container.terracotta #main aside#sidebar p.elect-donate-jump a:hover, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:hover {
   text-decoration: none;
 }
 #container.terracotta #main aside#sidebar p.elect-donate-jump a:hover, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:hover {
   background-color: #ec272a;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffa28e), color-stop(100%, #ec272a));
-  background: -webkit-linear-gradient(#ffa28e, #ec272a);
-  background: -moz-linear-gradient(#ffa28e, #ec272a);
-  background: -o-linear-gradient(#ffa28e, #ec272a);
-  background: linear-gradient(#ffa28e, #ec272a);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #ec272a));
+  background: -webkit-linear-gradient(#f2f2f2, #ec272a);
+  background: -moz-linear-gradient(#f2f2f2, #ec272a);
+  background: -o-linear-gradient(#f2f2f2, #ec272a);
+  background: linear-gradient(#f2f2f2, #ec272a);
 }
 #container.terracotta #main aside#sidebar p.elect-donate-jump a:active, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:active {
   -webkit-box-shadow: #eb191c 0 1px 2px inset;
@@ -413,29 +413,29 @@ footer#footer .credit {
   -o-border-radius: 10px;
   border-radius: 10px;
   *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF010549', endColorstr='#FF000000');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #010549), color-stop(100%, #418a26));
-  background: -webkit-linear-gradient(#010549, #418a26);
-  background: -moz-linear-gradient(#010549, #418a26);
-  background: -o-linear-gradient(#010549, #418a26);
-  background: linear-gradient(#010549, #418a26);
-  -webkit-box-shadow: #020a94 0 1px 0 inset;
-  -moz-box-shadow: #020a94 0 1px 0 inset;
-  box-shadow: #020a94 0 1px 0 inset;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #418a26));
+  background: -webkit-linear-gradient(#ffffff, #418a26);
+  background: -moz-linear-gradient(#ffffff, #418a26);
+  background: -o-linear-gradient(#ffffff, #418a26);
+  background: linear-gradient(#ffffff, #418a26);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
   border: 1px solid #387620;
-  color: black;
-  text-shadow: #5ec737 0 1px 0;
+  color: #323449;
+  text-shadow: #85d568 0 1px 0;
 }
 #container.greenleaf #main aside#sidebar p.elect-donate-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:hover {
   text-decoration: none;
 }
 #container.greenleaf #main aside#sidebar p.elect-donate-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:hover {
   background-color: #387620;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #010330), color-stop(100%, #387620));
-  background: -webkit-linear-gradient(#010330, #387620);
-  background: -moz-linear-gradient(#010330, #387620);
-  background: -o-linear-gradient(#010330, #387620);
-  background: linear-gradient(#010330, #387620);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #387620));
+  background: -webkit-linear-gradient(#f2f2f2, #387620);
+  background: -moz-linear-gradient(#f2f2f2, #387620);
+  background: -o-linear-gradient(#f2f2f2, #387620);
+  background: linear-gradient(#f2f2f2, #387620);
 }
 #container.greenleaf #main aside#sidebar p.elect-donate-jump a:active, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:active {
   -webkit-box-shadow: #326a1d 0 1px 2px inset;

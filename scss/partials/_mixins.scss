@@ -12,6 +12,9 @@ $midtone: #cfcfcf; // gray
 $display: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 $body: Georgia, Times, "Times New Roman", serif;
 
+$button1: $accent1;
+$button2: $light;
+
 // Mixin for the specific stylesheets used by _palette
 @mixin elect-style {	
 	color: $dark;
@@ -48,11 +51,11 @@ $body: Georgia, Times, "Times New Roman", serif;
 				a {
 					font-family: $display;
 					$sb-padding: .5em 1em;
-					@include sassy-button("simple", 10px, 24px, $accent2, $accent1, $black);
+					@include sassy-button("simple", 10px, 24px, $white, $accent1, $dark);
 				}
 			}
 			.elect-donate-widget {
-				
+
 			}
 		}
 	}
