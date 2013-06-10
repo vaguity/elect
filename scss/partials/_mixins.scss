@@ -43,6 +43,18 @@ $body: Georgia, Times, "Times New Roman", serif;
 		h1, h2, h3, h4, h5, h6 {
 			font-family: $display;
 		}
+		aside#sidebar {
+			p.elect-donate-jump, p.elect-newsletter-jump {
+				a {
+					font-family: $display;
+					$sb-padding: .5em 1em;
+					@include sassy-button("simple", 10px, 24px, $accent2, $accent1, $black);
+				}
+			}
+			.elect-donate-widget {
+				
+			}
+		}
 	}
 
 	footer#footer {

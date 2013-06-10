@@ -1,147 +1,3 @@
-#container.terracotta {
-  color: #060054;
-  font-family: Georgia, Times, "Times New Roman", serif;
-}
-#container.terracotta a:link {
-  color: #ee3e41;
-  text-decoration: underline;
-}
-#container.terracotta a:visited {
-  color: #ee3e41;
-  text-decoration: underline;
-}
-#container.terracotta a:hover {
-  color: #f69c9d;
-  text-decoration: none;
-}
-#container.terracotta a:active {
-  color: #f69c9d;
-  text-decoration: none;
-  position: relative;
-  top: 1px;
-}
-#container.terracotta header#header, #container.terracotta nav#primary-navigation {
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-  background-color: #ee3e41;
-}
-#container.terracotta header#header a:link, #container.terracotta nav#primary-navigation a:link {
-  color: #f4ffff;
-  text-decoration: none;
-}
-#container.terracotta header#header a:visited, #container.terracotta nav#primary-navigation a:visited {
-  color: #f4ffff;
-  text-decoration: none;
-}
-#container.terracotta header#header a:hover, #container.terracotta nav#primary-navigation a:hover {
-  color: #ffb7a7;
-  text-decoration: none;
-}
-#container.terracotta header#header a:active, #container.terracotta nav#primary-navigation a:active {
-  color: #ffb7a7;
-  position: relative;
-  top: 1px;
-}
-#container.terracotta nav#primary-navigation {
-  border-bottom: 4px solid #060054;
-}
-#container.terracotta #main h1, #container.terracotta #main h2, #container.terracotta #main h3, #container.terracotta #main h4, #container.terracotta #main h5, #container.terracotta #main h6 {
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-}
-#container.terracotta footer#footer {
-  background-color: #f4ffff;
-  color: #060054;
-  border-top: 4px solid #060054;
-}
-#container.terracotta footer#footer a:link {
-  color: #ee3e41;
-  text-decoration: none;
-}
-#container.terracotta footer#footer a:visited {
-  color: #ee3e41;
-  text-decoration: none;
-}
-#container.terracotta footer#footer a:hover {
-  color: #060054;
-  text-decoration: none;
-}
-#container.terracotta footer#footer a:active {
-  color: #060054;
-  position: relative;
-  top: 1px;
-}
-
-#container.greenleaf {
-  color: #323449;
-  font-family: Georgia, Times, "Times New Roman", serif;
-}
-#container.greenleaf a:link {
-  color: #418a26;
-  text-decoration: underline;
-}
-#container.greenleaf a:visited {
-  color: #418a26;
-  text-decoration: underline;
-}
-#container.greenleaf a:hover {
-  color: #6dcd49;
-  text-decoration: none;
-}
-#container.greenleaf a:active {
-  color: #6dcd49;
-  text-decoration: none;
-  position: relative;
-  top: 1px;
-}
-#container.greenleaf header#header, #container.greenleaf nav#primary-navigation {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #418a26;
-}
-#container.greenleaf header#header a:link, #container.greenleaf nav#primary-navigation a:link {
-  color: #f9f9f9;
-  text-decoration: none;
-}
-#container.greenleaf header#header a:visited, #container.greenleaf nav#primary-navigation a:visited {
-  color: #f9f9f9;
-  text-decoration: none;
-}
-#container.greenleaf header#header a:hover, #container.greenleaf nav#primary-navigation a:hover {
-  color: #010549;
-  text-decoration: none;
-}
-#container.greenleaf header#header a:active, #container.greenleaf nav#primary-navigation a:active {
-  color: #010549;
-  position: relative;
-  top: 1px;
-}
-#container.greenleaf nav#primary-navigation {
-  border-bottom: 4px solid #323449;
-}
-#container.greenleaf #main h1, #container.greenleaf #main h2, #container.greenleaf #main h3, #container.greenleaf #main h4, #container.greenleaf #main h5, #container.greenleaf #main h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-#container.greenleaf footer#footer {
-  background-color: #f9f9f9;
-  color: #323449;
-  border-top: 4px solid #323449;
-}
-#container.greenleaf footer#footer a:link {
-  color: #418a26;
-  text-decoration: none;
-}
-#container.greenleaf footer#footer a:visited {
-  color: #418a26;
-  text-decoration: none;
-}
-#container.greenleaf footer#footer a:hover {
-  color: #323449;
-  text-decoration: none;
-}
-#container.greenleaf footer#footer a:active {
-  color: #323449;
-  position: relative;
-  top: 1px;
-}
-
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -239,6 +95,7 @@ nav#primary-navigation ul {
   margin: 0;
   padding: 0;
   display: inline-block;
+  line-height: 1.25em;
 }
 nav#primary-navigation ul li {
   display: inline;
@@ -261,14 +118,41 @@ nav#primary-navigation ul li a:active {
 }
 
 #main {
+  width: 83.10811%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -2%;
+  display: inline;
+  padding-left: 7.77027%;
+  padding-right: 7.77027%;
   margin-bottom: 40px;
 }
 #main ul {
   list-style-type: square;
 }
-
-aside#sidebar {
+#main aside#sidebar {
+  margin-top: 16px;
+  font-size: 14px;
+  text-align: justify;
+}
+#main aside#sidebar div {
+  margin-bottom: 40px;
+}
+#main aside#sidebar p.elect-donate-jump, #main aside#sidebar p.elect-newsletter-jump {
   text-align: center;
+}
+#main aside#sidebar p.elect-donate-jump a:link, #main aside#sidebar p.elect-newsletter-jump a:link {
+  text-decoration: none;
+}
+#main aside#sidebar p.elect-donate-jump a:visited, #main aside#sidebar p.elect-newsletter-jump a:visited {
+  text-decoration: none;
+}
+#main aside#sidebar p.elect-donate-jump a:hover, #main aside#sidebar p.elect-newsletter-jump a:hover {
+  text-decoration: none;
+}
+#main aside#sidebar p.elect-donate-jump a:active, #main aside#sidebar p.elect-newsletter-jump a:active {
+  position: relative;
+  top: 1px;
 }
 
 footer#footer {
@@ -293,6 +177,12 @@ footer#footer .credit {
 }
 
 @media (min-width: 760px) {
+  #main {
+    float: none;
+    width: auto;
+    margin-right: auto;
+  }
+
   #container.sideright #main article {
     width: 62.58389%;
     float: left;
@@ -306,7 +196,7 @@ footer#footer .credit {
     width: 24.49664%;
     float: right;
     margin-right: 0;
-    text-align: right;
+    text-align: center;
   }
 
   #container.sideleft #main article {
@@ -322,7 +212,7 @@ footer#footer .credit {
     margin-right: 0.67114%;
     padding-left: 3.85906%;
     padding-right: 3.85906%;
-    text-align: left;
+    text-align: center;
   }
 
   footer#footer .copyright {
@@ -335,4 +225,255 @@ footer#footer .credit {
     float: right;
     margin-right: 0;
   }
+}
+#container.terracotta {
+  color: #060054;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+#container.terracotta a:link {
+  color: #ee3e41;
+  text-decoration: underline;
+}
+#container.terracotta a:visited {
+  color: #ee3e41;
+  text-decoration: underline;
+}
+#container.terracotta a:hover {
+  color: #f69c9d;
+  text-decoration: none;
+}
+#container.terracotta a:active {
+  color: #f69c9d;
+  text-decoration: none;
+  position: relative;
+  top: 1px;
+}
+#container.terracotta header#header, #container.terracotta nav#primary-navigation {
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  background-color: #ee3e41;
+}
+#container.terracotta header#header a:link, #container.terracotta nav#primary-navigation a:link {
+  color: #f4ffff;
+  text-decoration: none;
+}
+#container.terracotta header#header a:visited, #container.terracotta nav#primary-navigation a:visited {
+  color: #f4ffff;
+  text-decoration: none;
+}
+#container.terracotta header#header a:hover, #container.terracotta nav#primary-navigation a:hover {
+  color: #ffb7a7;
+  text-decoration: none;
+}
+#container.terracotta header#header a:active, #container.terracotta nav#primary-navigation a:active {
+  color: #ffb7a7;
+  position: relative;
+  top: 1px;
+}
+#container.terracotta nav#primary-navigation {
+  border-bottom: 4px solid #060054;
+}
+#container.terracotta #main h1, #container.terracotta #main h2, #container.terracotta #main h3, #container.terracotta #main h4, #container.terracotta #main h5, #container.terracotta #main h6 {
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+#container.terracotta #main aside#sidebar p.elect-donate-jump a, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a {
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  font-size: 24px;
+  padding: 0.5em 1em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFB7A7', endColorstr='#FFFF6441');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffb7a7), color-stop(100%, #ee3e41));
+  background: -webkit-linear-gradient(#ffb7a7, #ee3e41);
+  background: -moz-linear-gradient(#ffb7a7, #ee3e41);
+  background: -o-linear-gradient(#ffb7a7, #ee3e41);
+  background: linear-gradient(#ffb7a7, #ee3e41);
+  -webkit-box-shadow: #fff6f3 0 1px 0 inset;
+  -moz-box-shadow: #fff6f3 0 1px 0 inset;
+  box-shadow: #fff6f3 0 1px 0 inset;
+  border: 1px solid #ec272a;
+  color: black;
+  text-shadow: #f7a3a5 0 1px 0;
+}
+#container.terracotta #main aside#sidebar p.elect-donate-jump a:hover, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:hover {
+  text-decoration: none;
+}
+#container.terracotta #main aside#sidebar p.elect-donate-jump a:hover, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:hover {
+  background-color: #ec272a;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffa28e), color-stop(100%, #ec272a));
+  background: -webkit-linear-gradient(#ffa28e, #ec272a);
+  background: -moz-linear-gradient(#ffa28e, #ec272a);
+  background: -o-linear-gradient(#ffa28e, #ec272a);
+  background: linear-gradient(#ffa28e, #ec272a);
+}
+#container.terracotta #main aside#sidebar p.elect-donate-jump a:active, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:active {
+  -webkit-box-shadow: #eb191c 0 1px 2px inset;
+  -moz-box-shadow: #eb191c 0 1px 2px inset;
+  box-shadow: #eb191c 0 1px 2px inset;
+}
+#container.terracotta #main aside#sidebar p.elect-donate-jump a.disabled, #container.terracotta #main aside#sidebar p.elect-donate-jump a[disabled], #container.terracotta #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #ee3e41;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.terracotta #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+#container.terracotta footer#footer {
+  background-color: #f4ffff;
+  color: #060054;
+  border-top: 4px solid #060054;
+}
+#container.terracotta footer#footer a:link {
+  color: #ee3e41;
+  text-decoration: none;
+}
+#container.terracotta footer#footer a:visited {
+  color: #ee3e41;
+  text-decoration: none;
+}
+#container.terracotta footer#footer a:hover {
+  color: #060054;
+  text-decoration: none;
+}
+#container.terracotta footer#footer a:active {
+  color: #060054;
+  position: relative;
+  top: 1px;
+}
+
+#container.greenleaf {
+  color: #323449;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+#container.greenleaf a:link {
+  color: #418a26;
+  text-decoration: underline;
+}
+#container.greenleaf a:visited {
+  color: #418a26;
+  text-decoration: underline;
+}
+#container.greenleaf a:hover {
+  color: #6dcd49;
+  text-decoration: none;
+}
+#container.greenleaf a:active {
+  color: #6dcd49;
+  text-decoration: none;
+  position: relative;
+  top: 1px;
+}
+#container.greenleaf header#header, #container.greenleaf nav#primary-navigation {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #418a26;
+}
+#container.greenleaf header#header a:link, #container.greenleaf nav#primary-navigation a:link {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+#container.greenleaf header#header a:visited, #container.greenleaf nav#primary-navigation a:visited {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+#container.greenleaf header#header a:hover, #container.greenleaf nav#primary-navigation a:hover {
+  color: #010549;
+  text-decoration: none;
+}
+#container.greenleaf header#header a:active, #container.greenleaf nav#primary-navigation a:active {
+  color: #010549;
+  position: relative;
+  top: 1px;
+}
+#container.greenleaf nav#primary-navigation {
+  border-bottom: 4px solid #323449;
+}
+#container.greenleaf #main h1, #container.greenleaf #main h2, #container.greenleaf #main h3, #container.greenleaf #main h4, #container.greenleaf #main h5, #container.greenleaf #main h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 0.5em 1em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF010549', endColorstr='#FF000000');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #010549), color-stop(100%, #418a26));
+  background: -webkit-linear-gradient(#010549, #418a26);
+  background: -moz-linear-gradient(#010549, #418a26);
+  background: -o-linear-gradient(#010549, #418a26);
+  background: linear-gradient(#010549, #418a26);
+  -webkit-box-shadow: #020a94 0 1px 0 inset;
+  -moz-box-shadow: #020a94 0 1px 0 inset;
+  box-shadow: #020a94 0 1px 0 inset;
+  border: 1px solid #387620;
+  color: black;
+  text-shadow: #5ec737 0 1px 0;
+}
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:hover {
+  text-decoration: none;
+}
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:hover {
+  background-color: #387620;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #010330), color-stop(100%, #387620));
+  background: -webkit-linear-gradient(#010330, #387620);
+  background: -moz-linear-gradient(#010330, #387620);
+  background: -o-linear-gradient(#010330, #387620);
+  background: linear-gradient(#010330, #387620);
+}
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a:active, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:active {
+  -webkit-box-shadow: #326a1d 0 1px 2px inset;
+  -moz-box-shadow: #326a1d 0 1px 2px inset;
+  box-shadow: #326a1d 0 1px 2px inset;
+}
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a.disabled, #container.greenleaf #main aside#sidebar p.elect-donate-jump a[disabled], #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #418a26;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+#container.greenleaf footer#footer {
+  background-color: #f9f9f9;
+  color: #323449;
+  border-top: 4px solid #323449;
+}
+#container.greenleaf footer#footer a:link {
+  color: #418a26;
+  text-decoration: none;
+}
+#container.greenleaf footer#footer a:visited {
+  color: #418a26;
+  text-decoration: none;
+}
+#container.greenleaf footer#footer a:hover {
+  color: #323449;
+  text-decoration: none;
+}
+#container.greenleaf footer#footer a:active {
+  color: #323449;
+  position: relative;
+  top: 1px;
 }

@@ -2,9 +2,8 @@
 @import "susy";
 // Importing Sassy Buttons extension
 @import "sassy-buttons";
-// Importing palettes
+// Importing mixins
 @import "partials/mixins";
-@import "partials/palette";
 
 // Grid setup
 $total-columns: 4;
@@ -70,6 +69,7 @@ nav#primary-navigation {
 		margin: 0;
 		padding: 0;
 		display: inline-block;
+		line-height: 1.25em;
 		li {
 			display: inline;
 			a {
@@ -85,21 +85,37 @@ nav#primary-navigation {
 
 // Main content container
 #main {
+	@include span-columns(5 omega,6);
+	@include pad(.5,.5,6);
 	margin-bottom: 40px;
 
 	ul {
 		list-style-type: square;
 	}
-}
 
-// Content
-article {
+	// Content
+	article {
 
-}
+	}
 
-// Sidebar
-aside#sidebar {
-	text-align: center;
+	// Sidebar
+	aside#sidebar {
+		margin-top: 16px;
+		font-size: 14px;
+		text-align: justify;
+		div {
+			margin-bottom: 40px;
+		}
+		p.elect-donate-jump, p.elect-newsletter-jump {
+			text-align: center;
+			a {
+				&:link { text-decoration: none; }
+				&:visited { text-decoration: none; }
+				&:hover { text-decoration: none; }
+				&:active { position: relative; top: 1px; }
+			}
+		}
+	}
 }
 
 // Footer
@@ -120,6 +136,10 @@ footer#footer {
 
 // Computer breakpoint
 @include at-breakpoint($computer) {
+	#main {
+		@include reset-columns;
+	}
+
 	// Content, left side
 	#container.sideright #main article {
 		@include span-columns(7.5,12);
@@ -131,7 +151,7 @@ footer#footer {
 		@include prefix(.5);
 		@include suffix(.5);
 		@include span-columns(3 omega,12);
-		text-align: right;
+		text-align: center;
 	}
 
 	// Content, right side
@@ -145,7 +165,7 @@ footer#footer {
 		@include span-columns(3,12);
 		@include prefix(.5);
 		@include suffix(.5);
-		text-align: left;
+		text-align: center;
 	}
 
 
@@ -159,3 +179,6 @@ footer#footer {
 		}
 	}
 }
+
+// Importing palettes
+@import "partials/palette";
