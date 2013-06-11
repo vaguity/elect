@@ -482,3 +482,130 @@ footer#footer .credit {
   position: relative;
   top: 1px;
 }
+
+#container.victory {
+  color: white;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+#container.victory a:link {
+  color: black;
+  text-decoration: underline;
+}
+#container.victory a:visited {
+  color: black;
+  text-decoration: underline;
+}
+#container.victory a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+#container.victory a:active {
+  color: #333333;
+  text-decoration: none;
+  position: relative;
+  top: 1px;
+}
+#container.victory header#header, #container.victory nav#primary-navigation {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+#container.victory header#header a:link, #container.victory nav#primary-navigation a:link {
+  color: blue;
+  text-decoration: none;
+}
+#container.victory header#header a:visited, #container.victory nav#primary-navigation a:visited {
+  color: blue;
+  text-decoration: none;
+}
+#container.victory header#header a:hover, #container.victory nav#primary-navigation a:hover {
+  color: orange;
+  text-decoration: none;
+}
+#container.victory header#header a:active, #container.victory nav#primary-navigation a:active {
+  color: orange;
+  position: relative;
+  top: 1px;
+}
+#container.victory nav#primary-navigation {
+  border-bottom: 4px solid white;
+}
+#container.victory #main h1, #container.victory #main h2, #container.victory #main h3, #container.victory #main h4, #container.victory #main h5, #container.victory #main h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#container.victory #main aside#sidebar p.elect-donate-jump a, #container.victory #main aside#sidebar p.elect-newsletter-jump a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 0.5em 1em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(#ffffff, #000000);
+  background: -moz-linear-gradient(#ffffff, #000000);
+  background: -o-linear-gradient(#ffffff, #000000);
+  background: linear-gradient(#ffffff, #000000);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid black;
+  color: white;
+  text-shadow: #8c8c8c 0 -1px 0;
+}
+#container.victory #main aside#sidebar p.elect-donate-jump a:hover, #container.victory #main aside#sidebar p.elect-newsletter-jump a:hover {
+  text-decoration: none;
+}
+#container.victory #main aside#sidebar p.elect-donate-jump a:hover, #container.victory #main aside#sidebar p.elect-newsletter-jump a:hover {
+  background-color: black;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(#f2f2f2, #000000);
+  background: -moz-linear-gradient(#f2f2f2, #000000);
+  background: -o-linear-gradient(#f2f2f2, #000000);
+  background: linear-gradient(#f2f2f2, #000000);
+}
+#container.victory #main aside#sidebar p.elect-donate-jump a:active, #container.victory #main aside#sidebar p.elect-newsletter-jump a:active {
+  -webkit-box-shadow: black 0 1px 2px inset;
+  -moz-box-shadow: black 0 1px 2px inset;
+  box-shadow: black 0 1px 2px inset;
+}
+#container.victory #main aside#sidebar p.elect-donate-jump a.disabled, #container.victory #main aside#sidebar p.elect-donate-jump a[disabled], #container.victory #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.victory #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: black;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.victory #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.victory #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+#container.victory footer#footer {
+  background-color: blue;
+  color: white;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+#container.victory footer#footer a:link {
+  color: black;
+  text-decoration: none;
+}
+#container.victory footer#footer a:visited {
+  color: black;
+  text-decoration: none;
+}
+#container.victory footer#footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+#container.victory footer#footer a:active {
+  color: white;
+  position: relative;
+  top: 1px;
+}

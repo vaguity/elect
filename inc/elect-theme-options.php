@@ -47,6 +47,10 @@ $palette_options = array(
 	'2' => array(
 		'value' =>	'2',
 		'label' => __( 'Greenleaf', 'electtheme' )
+	),
+	'3' => array(
+		'value' =>	'3',
+		'label' => __( 'Victory', 'electtheme' )
 	)
 );
 

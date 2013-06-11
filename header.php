@@ -60,6 +60,9 @@
   elseif ($options['palette'] == 2) {
     echo 'class="greenleaf ';
   }
+  elseif ($options['palette'] == 3) {
+    echo 'class="victory ';
+  }
   else { }
 
   if ($options['side'] == 'right') {
