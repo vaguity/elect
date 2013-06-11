@@ -100,6 +100,7 @@ nav#primary-navigation ul {
 }
 nav#primary-navigation ul li {
   display: inline;
+  white-space: nowrap;
 }
 nav#primary-navigation ul li a {
   padding: 0 10px 0 2px;
@@ -334,6 +335,7 @@ footer#footer .credit {
   background-color: #f4ffff;
   color: #060054;
   border-top: 4px solid #060054;
+  border-bottom: 4px solid #060054;
 }
 #container.terracotta footer#footer a:link {
   color: #ee3e41;
@@ -460,6 +462,7 @@ footer#footer .credit {
   background-color: #f9f9f9;
   color: #323449;
   border-top: 4px solid #323449;
+  border-bottom: 4px solid #323449;
 }
 #container.greenleaf footer#footer a:link {
   color: #418a26;

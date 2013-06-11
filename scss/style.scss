@@ -73,6 +73,7 @@ nav#primary-navigation {
 		line-height: 1.25em;
 		li {
 			display: inline;
+			white-space: nowrap;
 			a {
 				padding: 0 10px 0 2px;
 				&:link { text-decoration: none !important; }
