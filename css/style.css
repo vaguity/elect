@@ -99,8 +99,9 @@ nav#primary-navigation ul {
   line-height: 1.25em;
 }
 nav#primary-navigation ul li {
-  display: inline;
+  display: inline-block;
   white-space: nowrap;
+  padding: 20px 0 0 0;
 }
 nav#primary-navigation ul li a {
   padding: 0 10px 0 2px;
