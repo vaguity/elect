@@ -52,7 +52,8 @@ header#header, nav#primary-navigation, #main, footer#footer {
 header#header {
 	clear: both;
 	h1 {
-		margin: 20px 0;
+		margin: 0;
+		padding: 20px 0;
 		img {
 			max-height: 300px;
 			max-width: 100%;

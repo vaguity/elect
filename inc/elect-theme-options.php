@@ -176,6 +176,16 @@ function theme_options_do_page() {
 						</fieldset>
 					</td>
 				</tr>
+
+				<?php
+				/**
+				 * Logo URL
+				 */
+				?>
+				<tr valign="top"><th scope="row">Google Analytics Tracking Code<br /><br /><em>Should be in the format: <span style="white-space: nowrap;">UA-XXXXX-X.</span></em></th>
+                    <td><input type="text" name="elect_theme_options[gacode]" value="<?php echo $options['gacode']; ?>" style="width: 300px;" /></td>
+                </tr>
+
 			</table>
 
 			<p class="submit">
