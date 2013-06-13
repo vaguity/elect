@@ -67,10 +67,11 @@ $light: #eee;
 
 	@include elect-style;
 }
+
 // Eggplant
 #container.eggplant {
 	$accent1: #3E0673; // dark purple
-	$accent2: #AB48E8; // mid purple
+	$accent2: #B363E8; // mid purple
 	$light: #F7FFFF; // off-white
 	$dark: #000000; // black
 	$midtone: #FFB10D; // mustard

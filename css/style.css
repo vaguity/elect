@@ -899,11 +899,11 @@ footer#footer .credit {
   text-decoration: none;
 }
 #container.eggplant header#header a:hover, #container.eggplant nav#primary-navigation a:hover {
-  color: #ab48e8;
+  color: #b363e8;
   text-decoration: none;
 }
 #container.eggplant header#header a:active, #container.eggplant nav#primary-navigation a:active {
-  color: #ab48e8;
+  color: #b363e8;
   position: relative;
   top: 1px;
 }
@@ -926,38 +926,38 @@ footer#footer .credit {
   border-radius: 10px;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ab48e8));
-  background: -webkit-linear-gradient(#ffffff, #ab48e8);
-  background: -moz-linear-gradient(#ffffff, #ab48e8);
-  background: -o-linear-gradient(#ffffff, #ab48e8);
-  background: linear-gradient(#ffffff, #ab48e8);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #b363e8));
+  background: -webkit-linear-gradient(#ffffff, #b363e8);
+  background: -moz-linear-gradient(#ffffff, #b363e8);
+  background: -o-linear-gradient(#ffffff, #b363e8);
+  background: linear-gradient(#ffffff, #b363e8);
   -webkit-box-shadow: white 0 1px 0 inset;
   -moz-box-shadow: white 0 1px 0 inset;
   box-shadow: white 0 1px 0 inset;
-  border: 1px solid #a131e5;
-  color: #1d052c;
-  text-shadow: #e1bef7 0 1px 0;
+  border: 1px solid #a84de5;
+  color: #2c0a42;
+  text-shadow: #e3c6f7 0 1px 0;
 }
 #container.eggplant #main aside#sidebar p.elect-donate-jump a:hover, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:hover {
   text-decoration: none;
 }
 #container.eggplant #main aside#sidebar p.elect-donate-jump a:hover, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:hover {
-  background-color: #a131e5;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #a131e5));
-  background: -webkit-linear-gradient(#f2f2f2, #a131e5);
-  background: -moz-linear-gradient(#f2f2f2, #a131e5);
-  background: -o-linear-gradient(#f2f2f2, #a131e5);
-  background: linear-gradient(#f2f2f2, #a131e5);
+  background-color: #a84de5;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #a84de5));
+  background: -webkit-linear-gradient(#f2f2f2, #a84de5);
+  background: -moz-linear-gradient(#f2f2f2, #a84de5);
+  background: -o-linear-gradient(#f2f2f2, #a84de5);
+  background: linear-gradient(#f2f2f2, #a84de5);
 }
 #container.eggplant #main aside#sidebar p.elect-donate-jump a:active, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:active {
-  -webkit-box-shadow: #9a24e3 0 1px 2px inset;
-  -moz-box-shadow: #9a24e3 0 1px 2px inset;
-  box-shadow: #9a24e3 0 1px 2px inset;
+  -webkit-box-shadow: #a23fe3 0 1px 2px inset;
+  -moz-box-shadow: #a23fe3 0 1px 2px inset;
+  box-shadow: #a23fe3 0 1px 2px inset;
 }
 #container.eggplant #main aside#sidebar p.elect-donate-jump a.disabled, #container.eggplant #main aside#sidebar p.elect-donate-jump a[disabled], #container.eggplant #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a[disabled] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
-  background: #ab48e8;
+  background: #b363e8;
   cursor: default;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
