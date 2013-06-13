@@ -29,13 +29,26 @@ $light: #eee;
 	@include elect-style;
 }
 
-// Victory1
+// Victory
 #container.victory1 {
 	$accent1: #FF0A0B; // red
 	$accent2: #F7F7BA; // beige
 	$light: #FFFFFF; // off-white
 	$dark: #003366; // blue
 	$midtone: #CCCCCC; // grey
+	$display: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	$body: Georgia, Times, "Times New Roman", serif;
+
+	@include elect-style;
+}
+
+// Victory 2
+#container.victory2 {
+	$accent1: #5A79A5; // mid blue
+	$accent2: #CE0000; // red
+	$light: #DEE7EF; // off-white
+	$dark: #000063; // blue
+	$midtone: #9CAAC6; // grey
 	$display: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	$body: Georgia, Times, "Times New Roman", serif;
 

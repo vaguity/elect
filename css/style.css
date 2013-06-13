@@ -609,3 +609,130 @@ footer#footer .credit {
   position: relative;
   top: 1px;
 }
+
+#container.victory2 {
+  color: #000063;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+#container.victory2 a:link {
+  color: #5a79a5;
+  text-decoration: underline;
+}
+#container.victory2 a:visited {
+  color: #5a79a5;
+  text-decoration: underline;
+}
+#container.victory2 a:hover {
+  color: #9cafc9;
+  text-decoration: none;
+}
+#container.victory2 a:active {
+  color: #9cafc9;
+  text-decoration: none;
+  position: relative;
+  top: 1px;
+}
+#container.victory2 header#header, #container.victory2 nav#primary-navigation {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #5a79a5;
+}
+#container.victory2 header#header a:link, #container.victory2 nav#primary-navigation a:link {
+  color: #dee7ef;
+  text-decoration: none;
+}
+#container.victory2 header#header a:visited, #container.victory2 nav#primary-navigation a:visited {
+  color: #dee7ef;
+  text-decoration: none;
+}
+#container.victory2 header#header a:hover, #container.victory2 nav#primary-navigation a:hover {
+  color: #ce0000;
+  text-decoration: none;
+}
+#container.victory2 header#header a:active, #container.victory2 nav#primary-navigation a:active {
+  color: #ce0000;
+  position: relative;
+  top: 1px;
+}
+#container.victory2 nav#primary-navigation {
+  border-bottom: 4px solid #000063;
+}
+#container.victory2 #main h1, #container.victory2 #main h2, #container.victory2 #main h3, #container.victory2 #main h4, #container.victory2 #main h5, #container.victory2 #main h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#container.victory2 #main aside#sidebar p.elect-donate-jump a, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 0.5em 1em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #5a79a5));
+  background: -webkit-linear-gradient(#ffffff, #5a79a5);
+  background: -moz-linear-gradient(#ffffff, #5a79a5);
+  background: -o-linear-gradient(#ffffff, #5a79a5);
+  background: linear-gradient(#ffffff, #5a79a5);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid #516d95;
+  color: #000063;
+  text-shadow: #b2c0d5 0 1px 0;
+}
+#container.victory2 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:hover {
+  text-decoration: none;
+}
+#container.victory2 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:hover {
+  background-color: #516d95;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #516d95));
+  background: -webkit-linear-gradient(#f2f2f2, #516d95);
+  background: -moz-linear-gradient(#f2f2f2, #516d95);
+  background: -o-linear-gradient(#f2f2f2, #516d95);
+  background: linear-gradient(#f2f2f2, #516d95);
+}
+#container.victory2 #main aside#sidebar p.elect-donate-jump a:active, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:active {
+  -webkit-box-shadow: #4c668b 0 1px 2px inset;
+  -moz-box-shadow: #4c668b 0 1px 2px inset;
+  box-shadow: #4c668b 0 1px 2px inset;
+}
+#container.victory2 #main aside#sidebar p.elect-donate-jump a.disabled, #container.victory2 #main aside#sidebar p.elect-donate-jump a[disabled], #container.victory2 #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #5a79a5;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.victory2 #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+#container.victory2 footer#footer {
+  background-color: #dee7ef;
+  color: #000063;
+  border-top: 4px solid #000063;
+  border-bottom: 4px solid #000063;
+}
+#container.victory2 footer#footer a:link {
+  color: #5a79a5;
+  text-decoration: none;
+}
+#container.victory2 footer#footer a:visited {
+  color: #5a79a5;
+  text-decoration: none;
+}
+#container.victory2 footer#footer a:hover {
+  color: #000063;
+  text-decoration: none;
+}
+#container.victory2 footer#footer a:active {
+  color: #000063;
+  position: relative;
+  top: 1px;
+}
