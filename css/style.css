@@ -483,56 +483,56 @@ footer#footer .credit {
   top: 1px;
 }
 
-#container.victory {
-  color: white;
+#container.victory1 {
+  color: #cccccc;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
-#container.victory a:link {
-  color: black;
+#container.victory1 a:link {
+  color: #ff0a0b;
   text-decoration: underline;
 }
-#container.victory a:visited {
-  color: black;
+#container.victory1 a:visited {
+  color: #ff0a0b;
   text-decoration: underline;
 }
-#container.victory a:hover {
-  color: #333333;
+#container.victory1 a:hover {
+  color: #ff7071;
   text-decoration: none;
 }
-#container.victory a:active {
-  color: #333333;
+#container.victory1 a:active {
+  color: #ff7071;
   text-decoration: none;
   position: relative;
   top: 1px;
 }
-#container.victory header#header, #container.victory nav#primary-navigation {
+#container.victory1 header#header, #container.victory1 nav#primary-navigation {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background-color: #ff0a0b;
 }
-#container.victory header#header a:link, #container.victory nav#primary-navigation a:link {
-  color: blue;
+#container.victory1 header#header a:link, #container.victory1 nav#primary-navigation a:link {
+  color: white;
   text-decoration: none;
 }
-#container.victory header#header a:visited, #container.victory nav#primary-navigation a:visited {
-  color: blue;
+#container.victory1 header#header a:visited, #container.victory1 nav#primary-navigation a:visited {
+  color: white;
   text-decoration: none;
 }
-#container.victory header#header a:hover, #container.victory nav#primary-navigation a:hover {
-  color: orange;
+#container.victory1 header#header a:hover, #container.victory1 nav#primary-navigation a:hover {
+  color: #003366;
   text-decoration: none;
 }
-#container.victory header#header a:active, #container.victory nav#primary-navigation a:active {
-  color: orange;
+#container.victory1 header#header a:active, #container.victory1 nav#primary-navigation a:active {
+  color: #003366;
   position: relative;
   top: 1px;
 }
-#container.victory nav#primary-navigation {
-  border-bottom: 4px solid white;
+#container.victory1 nav#primary-navigation {
+  border-bottom: 4px solid #cccccc;
 }
-#container.victory #main h1, #container.victory #main h2, #container.victory #main h3, #container.victory #main h4, #container.victory #main h5, #container.victory #main h6 {
+#container.victory1 #main h1, #container.victory1 #main h2, #container.victory1 #main h3, #container.victory1 #main h4, #container.victory1 #main h5, #container.victory1 #main h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#container.victory #main aside#sidebar p.elect-donate-jump a, #container.victory #main aside#sidebar p.elect-newsletter-jump a {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   padding: 0.5em 1em;
@@ -545,67 +545,67 @@ footer#footer .credit {
   border-radius: 10px;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #000000));
-  background: -webkit-linear-gradient(#ffffff, #000000);
-  background: -moz-linear-gradient(#ffffff, #000000);
-  background: -o-linear-gradient(#ffffff, #000000);
-  background: linear-gradient(#ffffff, #000000);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ff0a0b));
+  background: -webkit-linear-gradient(#ffffff, #ff0a0b);
+  background: -moz-linear-gradient(#ffffff, #ff0a0b);
+  background: -o-linear-gradient(#ffffff, #ff0a0b);
+  background: linear-gradient(#ffffff, #ff0a0b);
   -webkit-box-shadow: white 0 1px 0 inset;
   -moz-box-shadow: white 0 1px 0 inset;
   box-shadow: white 0 1px 0 inset;
-  border: 1px solid black;
-  color: white;
-  text-shadow: #8c8c8c 0 -1px 0;
+  border: 1px solid #f00001;
+  color: #cccccc;
+  text-shadow: #9a9a9a 0 -1px 0;
 }
-#container.victory #main aside#sidebar p.elect-donate-jump a:hover, #container.victory #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:hover {
   text-decoration: none;
 }
-#container.victory #main aside#sidebar p.elect-donate-jump a:hover, #container.victory #main aside#sidebar p.elect-newsletter-jump a:hover {
-  background-color: black;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #000000));
-  background: -webkit-linear-gradient(#f2f2f2, #000000);
-  background: -moz-linear-gradient(#f2f2f2, #000000);
-  background: -o-linear-gradient(#f2f2f2, #000000);
-  background: linear-gradient(#f2f2f2, #000000);
+#container.victory1 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:hover {
+  background-color: #f00001;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #f00001));
+  background: -webkit-linear-gradient(#f2f2f2, #f00001);
+  background: -moz-linear-gradient(#f2f2f2, #f00001);
+  background: -o-linear-gradient(#f2f2f2, #f00001);
+  background: linear-gradient(#f2f2f2, #f00001);
 }
-#container.victory #main aside#sidebar p.elect-donate-jump a:active, #container.victory #main aside#sidebar p.elect-newsletter-jump a:active {
-  -webkit-box-shadow: black 0 1px 2px inset;
-  -moz-box-shadow: black 0 1px 2px inset;
-  box-shadow: black 0 1px 2px inset;
+#container.victory1 #main aside#sidebar p.elect-donate-jump a:active, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:active {
+  -webkit-box-shadow: #e00001 0 1px 2px inset;
+  -moz-box-shadow: #e00001 0 1px 2px inset;
+  box-shadow: #e00001 0 1px 2px inset;
 }
-#container.victory #main aside#sidebar p.elect-donate-jump a.disabled, #container.victory #main aside#sidebar p.elect-donate-jump a[disabled], #container.victory #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.victory #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a.disabled, #container.victory1 #main aside#sidebar p.elect-donate-jump a[disabled], #container.victory1 #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a[disabled] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
-  background: black;
+  background: #ff0a0b;
   cursor: default;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
-#container.victory #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.victory #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
-#container.victory footer#footer {
-  background-color: blue;
-  color: white;
-  border-top: 4px solid white;
-  border-bottom: 4px solid white;
+#container.victory1 footer#footer {
+  background-color: white;
+  color: #cccccc;
+  border-top: 4px solid #cccccc;
+  border-bottom: 4px solid #cccccc;
 }
-#container.victory footer#footer a:link {
-  color: black;
+#container.victory1 footer#footer a:link {
+  color: #ff0a0b;
   text-decoration: none;
 }
-#container.victory footer#footer a:visited {
-  color: black;
+#container.victory1 footer#footer a:visited {
+  color: #ff0a0b;
   text-decoration: none;
 }
-#container.victory footer#footer a:hover {
-  color: white;
+#container.victory1 footer#footer a:hover {
+  color: #cccccc;
   text-decoration: none;
 }
-#container.victory footer#footer a:active {
-  color: white;
+#container.victory1 footer#footer a:active {
+  color: #cccccc;
   position: relative;
   top: 1px;
 }

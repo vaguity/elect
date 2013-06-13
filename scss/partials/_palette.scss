@@ -29,13 +29,13 @@ $light: #eee;
 	@include elect-style;
 }
 
-// Victory
-#container.victory {
-	$accent1: black; // green
-	$accent2: orange; // dark blue
-	$light: blue; // off-white
-	$dark: white; // slate gray
-	$midtone: gray; // light gray
+// Victory1
+#container.victory1 {
+	$accent1: #FF0A0B; // red
+	$accent2: #003366; // blue
+	$light: #FFFFFF; // off-white
+	$dark: #CCCCCC; // gray
+	$midtone: #F7F7BA; // beige
 	$display: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	$body: Georgia, Times, "Times New Roman", serif;
 

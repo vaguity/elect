@@ -61,7 +61,7 @@
     echo 'class="greenleaf ';
   }
   elseif ($options['palette'] == 3) {
-    echo 'class="victory ';
+    echo 'class="victory1';
   }
   else { }
 
