@@ -63,11 +63,14 @@
   elseif ($options['palette'] == 3) {
     echo 'class="victory1 ';
   }
-    elseif ($options['palette'] == 4) {
+  elseif ($options['palette'] == 4) {
     echo 'class="victory2 ';
   }
-    elseif ($options['palette'] == 5) {
+  elseif ($options['palette'] == 5) {
     echo 'class="fiesta ';
+     }
+  elseif ($options['palette'] == 6) {
+    echo 'class="eggplant ';
     }
   else { }
 

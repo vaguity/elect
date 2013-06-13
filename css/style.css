@@ -738,37 +738,37 @@ footer#footer .credit {
 }
 
 #container.fiesta {
-  color: #09435c;
+  color: #072b30;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 #container.fiesta a:link {
-  color: #e1211c;
+  color: #e12a1c;
   text-decoration: underline;
 }
 #container.fiesta a:visited {
-  color: #e1211c;
+  color: #e12a1c;
   text-decoration: underline;
 }
 #container.fiesta a:hover {
-  color: #ee7875;
+  color: #ee7e75;
   text-decoration: none;
 }
 #container.fiesta a:active {
-  color: #ee7875;
+  color: #ee7e75;
   text-decoration: none;
   position: relative;
   top: 1px;
 }
 #container.fiesta header#header, #container.fiesta nav#primary-navigation {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #e1211c;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  background-color: #e12a1c;
 }
 #container.fiesta header#header a:link, #container.fiesta nav#primary-navigation a:link {
-  color: #f7ffff;
+  color: #fffccf;
   text-decoration: none;
 }
 #container.fiesta header#header a:visited, #container.fiesta nav#primary-navigation a:visited {
-  color: #f7ffff;
+  color: #fffccf;
   text-decoration: none;
 }
 #container.fiesta header#header a:hover, #container.fiesta nav#primary-navigation a:hover {
@@ -781,13 +781,13 @@ footer#footer .credit {
   top: 1px;
 }
 #container.fiesta nav#primary-navigation {
-  border-bottom: 4px solid #09435c;
+  border-bottom: 4px solid #072b30;
 }
 #container.fiesta #main h1, #container.fiesta #main h2, #container.fiesta #main h3, #container.fiesta #main h4, #container.fiesta #main h5, #container.fiesta #main h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
 #container.fiesta #main aside#sidebar p.elect-donate-jump a, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   font-size: 24px;
   padding: 0.5em 1em;
   display: inline-block;
@@ -841,25 +841,152 @@ footer#footer .credit {
   margin: -1px !important;
 }
 #container.fiesta footer#footer {
-  background-color: #f7ffff;
-  color: #09435c;
-  border-top: 4px solid #09435c;
-  border-bottom: 4px solid #09435c;
+  background-color: #fffccf;
+  color: #072b30;
+  border-top: 4px solid #072b30;
+  border-bottom: 4px solid #072b30;
 }
 #container.fiesta footer#footer a:link {
-  color: #e1211c;
+  color: #e12a1c;
   text-decoration: none;
 }
 #container.fiesta footer#footer a:visited {
-  color: #e1211c;
+  color: #e12a1c;
   text-decoration: none;
 }
 #container.fiesta footer#footer a:hover {
-  color: #09435c;
+  color: #072b30;
   text-decoration: none;
 }
 #container.fiesta footer#footer a:active {
-  color: #09435c;
+  color: #072b30;
+  position: relative;
+  top: 1px;
+}
+
+#container.eggplant {
+  color: black;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#container.eggplant a:link {
+  color: #3e0673;
+  text-decoration: underline;
+}
+#container.eggplant a:visited {
+  color: #3e0673;
+  text-decoration: underline;
+}
+#container.eggplant a:hover {
+  color: #720bd4;
+  text-decoration: none;
+}
+#container.eggplant a:active {
+  color: #720bd4;
+  text-decoration: none;
+  position: relative;
+  top: 1px;
+}
+#container.eggplant header#header, #container.eggplant nav#primary-navigation {
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  background-color: #3e0673;
+}
+#container.eggplant header#header a:link, #container.eggplant nav#primary-navigation a:link {
+  color: #f7ffff;
+  text-decoration: none;
+}
+#container.eggplant header#header a:visited, #container.eggplant nav#primary-navigation a:visited {
+  color: #f7ffff;
+  text-decoration: none;
+}
+#container.eggplant header#header a:hover, #container.eggplant nav#primary-navigation a:hover {
+  color: #ab48e8;
+  text-decoration: none;
+}
+#container.eggplant header#header a:active, #container.eggplant nav#primary-navigation a:active {
+  color: #ab48e8;
+  position: relative;
+  top: 1px;
+}
+#container.eggplant nav#primary-navigation {
+  border-bottom: 4px solid black;
+}
+#container.eggplant #main h1, #container.eggplant #main h2, #container.eggplant #main h3, #container.eggplant #main h4, #container.eggplant #main h5, #container.eggplant #main h6 {
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+#container.eggplant #main aside#sidebar p.elect-donate-jump a, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a {
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 24px;
+  padding: 0.5em 1em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ab48e8));
+  background: -webkit-linear-gradient(#ffffff, #ab48e8);
+  background: -moz-linear-gradient(#ffffff, #ab48e8);
+  background: -o-linear-gradient(#ffffff, #ab48e8);
+  background: linear-gradient(#ffffff, #ab48e8);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid #a131e5;
+  color: #1d052c;
+  text-shadow: #e1bef7 0 1px 0;
+}
+#container.eggplant #main aside#sidebar p.elect-donate-jump a:hover, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:hover {
+  text-decoration: none;
+}
+#container.eggplant #main aside#sidebar p.elect-donate-jump a:hover, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:hover {
+  background-color: #a131e5;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #a131e5));
+  background: -webkit-linear-gradient(#f2f2f2, #a131e5);
+  background: -moz-linear-gradient(#f2f2f2, #a131e5);
+  background: -o-linear-gradient(#f2f2f2, #a131e5);
+  background: linear-gradient(#f2f2f2, #a131e5);
+}
+#container.eggplant #main aside#sidebar p.elect-donate-jump a:active, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:active {
+  -webkit-box-shadow: #9a24e3 0 1px 2px inset;
+  -moz-box-shadow: #9a24e3 0 1px 2px inset;
+  box-shadow: #9a24e3 0 1px 2px inset;
+}
+#container.eggplant #main aside#sidebar p.elect-donate-jump a.disabled, #container.eggplant #main aside#sidebar p.elect-donate-jump a[disabled], #container.eggplant #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #ab48e8;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.eggplant #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+#container.eggplant footer#footer {
+  background-color: #f7ffff;
+  color: black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+#container.eggplant footer#footer a:link {
+  color: #3e0673;
+  text-decoration: none;
+}
+#container.eggplant footer#footer a:visited {
+  color: #3e0673;
+  text-decoration: none;
+}
+#container.eggplant footer#footer a:hover {
+  color: black;
+  text-decoration: none;
+}
+#container.eggplant footer#footer a:active {
+  color: black;
   position: relative;
   top: 1px;
 }

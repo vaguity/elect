@@ -59,6 +59,10 @@ $palette_options = array(
 	'5' => array(
 		'value' =>	'5',
 		'label' => __( 'Fiesta', 'electtheme' )
+	),
+	'6' => array(
+		'value' =>	'5',
+		'label' => __( 'Eggplant', 'electtheme' )
 	)
 
 );

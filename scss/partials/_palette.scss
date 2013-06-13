@@ -57,13 +57,25 @@ $light: #eee;
 
 // Fiesta
 #container.fiesta {
-	$accent1: #E1211C; // red
+	$accent1: #E12A1C; // red
 	$accent2: #FFC1A8; // peach
-	$light: #F7FFFF; // off-white
-	$dark: #09435C; // blue
-	$midtone: #FFF3B0; // beige
-	$display: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	$light: #FFFCCF; // beigeish
+	$dark: #072B30; // dark teal
+	$midtone: #F7FFFF; // off-white
+	$display: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 	$body: Georgia, Times, "Times New Roman", serif;
+
+	@include elect-style;
+}
+// Eggplant
+#container.eggplant {
+	$accent1: #3E0673; // dark purple
+	$accent2: #AB48E8; // mid purple
+	$light: #F7FFFF; // off-white
+	$dark: #000000; // black
+	$midtone: #FFB10D; // mustard
+	$display: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	$body: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 	@include elect-style;
 }
