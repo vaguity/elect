@@ -55,7 +55,12 @@ $palette_options = array(
 	'4' => array(
 		'value' =>	'4',
 		'label' => __( 'Victory 2', 'electtheme' )
+	),
+	'5' => array(
+		'value' =>	'5',
+		'label' => __( 'Fiesta', 'electtheme' )
 	)
+
 );
 
 // $typography_options = array(

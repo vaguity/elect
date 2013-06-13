@@ -45,10 +45,23 @@ $light: #eee;
 // Victory 2
 #container.victory2 {
 	$accent1: #5A79A5; // mid blue
-	$accent2: #CE0000; // red
+	$accent2: #9CAAC6; // grey
 	$light: #DEE7EF; // off-white
 	$dark: #000063; // blue
-	$midtone: #9CAAC6; // grey
+	$midtone: #CE0000; // red
+	$display: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	$body: Georgia, Times, "Times New Roman", serif;
+
+	@include elect-style;
+}
+
+// Fiesta
+#container.fiesta {
+	$accent1: #E1211C; // red
+	$accent2: #FFC1A8; // peach
+	$light: #F7FFFF; // off-white
+	$dark: #09435C; // blue
+	$midtone: #FFF3B0; // beige
 	$display: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	$body: Georgia, Times, "Times New Roman", serif;
 

@@ -66,6 +66,9 @@
     elseif ($options['palette'] == 4) {
     echo 'class="victory2 ';
   }
+    elseif ($options['palette'] == 5) {
+    echo 'class="fiesta ';
+    }
   else { }
 
   if ($options['side'] == 'right') {
