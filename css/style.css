@@ -672,38 +672,38 @@ footer#footer .credit {
   border-radius: 10px;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #5a79a5));
-  background: -webkit-linear-gradient(#ffffff, #5a79a5);
-  background: -moz-linear-gradient(#ffffff, #5a79a5);
-  background: -o-linear-gradient(#ffffff, #5a79a5);
-  background: linear-gradient(#ffffff, #5a79a5);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ce0000));
+  background: -webkit-linear-gradient(#ffffff, #ce0000);
+  background: -moz-linear-gradient(#ffffff, #ce0000);
+  background: -o-linear-gradient(#ffffff, #ce0000);
+  background: linear-gradient(#ffffff, #ce0000);
   -webkit-box-shadow: white 0 1px 0 inset;
   -moz-box-shadow: white 0 1px 0 inset;
   box-shadow: white 0 1px 0 inset;
-  border: 1px solid #516d95;
-  color: #000063;
-  text-shadow: #b2c0d5 0 1px 0;
+  border: 1px solid #b40000;
+  color: black;
+  text-shadow: #ff5a5a 0 1px 0;
 }
 #container.victory2 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:hover {
   text-decoration: none;
 }
 #container.victory2 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:hover {
-  background-color: #516d95;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #516d95));
-  background: -webkit-linear-gradient(#f2f2f2, #516d95);
-  background: -moz-linear-gradient(#f2f2f2, #516d95);
-  background: -o-linear-gradient(#f2f2f2, #516d95);
-  background: linear-gradient(#f2f2f2, #516d95);
+  background-color: #b40000;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #b40000));
+  background: -webkit-linear-gradient(#f2f2f2, #b40000);
+  background: -moz-linear-gradient(#f2f2f2, #b40000);
+  background: -o-linear-gradient(#f2f2f2, #b40000);
+  background: linear-gradient(#f2f2f2, #b40000);
 }
 #container.victory2 #main aside#sidebar p.elect-donate-jump a:active, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:active {
-  -webkit-box-shadow: #4c668b 0 1px 2px inset;
-  -moz-box-shadow: #4c668b 0 1px 2px inset;
-  box-shadow: #4c668b 0 1px 2px inset;
+  -webkit-box-shadow: #a50000 0 1px 2px inset;
+  -moz-box-shadow: #a50000 0 1px 2px inset;
+  box-shadow: #a50000 0 1px 2px inset;
 }
 #container.victory2 #main aside#sidebar p.elect-donate-jump a.disabled, #container.victory2 #main aside#sidebar p.elect-donate-jump a[disabled], #container.victory2 #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a[disabled] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
-  background: #5a79a5;
+  background: #ce0000;
   cursor: default;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
