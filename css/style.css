@@ -484,7 +484,7 @@ footer#footer .credit {
 }
 
 #container.victory1 {
-  color: #cccccc;
+  color: #003366;
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 #container.victory1 a:link {
@@ -518,16 +518,16 @@ footer#footer .credit {
   text-decoration: none;
 }
 #container.victory1 header#header a:hover, #container.victory1 nav#primary-navigation a:hover {
-  color: #003366;
+  color: #f7f7ba;
   text-decoration: none;
 }
 #container.victory1 header#header a:active, #container.victory1 nav#primary-navigation a:active {
-  color: #003366;
+  color: #f7f7ba;
   position: relative;
   top: 1px;
 }
 #container.victory1 nav#primary-navigation {
-  border-bottom: 4px solid #cccccc;
+  border-bottom: 4px solid #003366;
 }
 #container.victory1 #main h1, #container.victory1 #main h2, #container.victory1 #main h3, #container.victory1 #main h4, #container.victory1 #main h5, #container.victory1 #main h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -554,8 +554,8 @@ footer#footer .credit {
   -moz-box-shadow: white 0 1px 0 inset;
   box-shadow: white 0 1px 0 inset;
   border: 1px solid #f00001;
-  color: #cccccc;
-  text-shadow: #9a9a9a 0 -1px 0;
+  color: #003366;
+  text-shadow: #ff9192 0 1px 0;
 }
 #container.victory1 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:hover {
   text-decoration: none;
@@ -588,9 +588,9 @@ footer#footer .credit {
 }
 #container.victory1 footer#footer {
   background-color: white;
-  color: #cccccc;
-  border-top: 4px solid #cccccc;
-  border-bottom: 4px solid #cccccc;
+  color: #003366;
+  border-top: 4px solid #003366;
+  border-bottom: 4px solid #003366;
 }
 #container.victory1 footer#footer a:link {
   color: #ff0a0b;
@@ -601,11 +601,11 @@ footer#footer .credit {
   text-decoration: none;
 }
 #container.victory1 footer#footer a:hover {
-  color: #cccccc;
+  color: #003366;
   text-decoration: none;
 }
 #container.victory1 footer#footer a:active {
-  color: #cccccc;
+  color: #003366;
   position: relative;
   top: 1px;
 }

@@ -51,6 +51,10 @@ $palette_options = array(
 	'3' => array(
 		'value' =>	'3',
 		'label' => __( 'Victory 1', 'electtheme' )
+	),
+	'4' => array(
+		'value' =>	'4',
+		'label' => __( 'Victory 2', 'electtheme' )
 	)
 );
 
