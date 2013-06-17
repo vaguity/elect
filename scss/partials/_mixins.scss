@@ -9,7 +9,7 @@ $accent2: #ffb7a7; // salmon
 $light: #f4ffff; // off-white
 $dark: #060054; // dark blue
 $midtone: #cfcfcf; // gray
-$display: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+$display: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $body: Georgia, Times, "Times New Roman", serif;
 
 $button1: $accent1;
@@ -47,7 +47,7 @@ $button2: $light;
 			font-family: $display;
 		}
 		aside#sidebar {
-			p.elect-donate-jump, p.elect-newsletter-jump {
+			p.elect-donate-jump, p.elect-newsletter-jump, p.elect-cta-jump {
 				a {
 					font-family: $display;
 					$sb-padding: .5em 1em;
@@ -56,9 +56,9 @@ $button2: $light;
 					text-shadow: 1px 1px 1px #000;
 				}
 			}
-			.elect-donate-widget {
+			// .elect-donate-widget {
 
-			}
+			// }
 		}
 	}
 

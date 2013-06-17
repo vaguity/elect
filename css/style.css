@@ -278,7 +278,7 @@ footer#footer .credit {
 #container.terracotta #main h1, #container.terracotta #main h2, #container.terracotta #main h3, #container.terracotta #main h4, #container.terracotta #main h5, #container.terracotta #main h6 {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
-#container.terracotta #main aside#sidebar p.elect-donate-jump a, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a {
+#container.terracotta #main aside#sidebar p.elect-donate-jump a, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a, #container.terracotta #main aside#sidebar p.elect-cta-jump a {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   font-size: 24px;
   padding: 0.5em 1em;
@@ -304,10 +304,10 @@ footer#footer .credit {
   text-shadow: #db1317 0 -1px 0;
   text-shadow: 1px 1px 1px #000;
 }
-#container.terracotta #main aside#sidebar p.elect-donate-jump a:hover, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.terracotta #main aside#sidebar p.elect-donate-jump a:hover, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:hover, #container.terracotta #main aside#sidebar p.elect-cta-jump a:hover {
   text-decoration: none;
 }
-#container.terracotta #main aside#sidebar p.elect-donate-jump a:hover, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.terracotta #main aside#sidebar p.elect-donate-jump a:hover, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:hover, #container.terracotta #main aside#sidebar p.elect-cta-jump a:hover {
   background-color: #ec272a;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f48486), color-stop(100%, #ec272a));
   background: -webkit-linear-gradient(#f48486, #ec272a);
@@ -315,12 +315,12 @@ footer#footer .credit {
   background: -o-linear-gradient(#f48486, #ec272a);
   background: linear-gradient(#f48486, #ec272a);
 }
-#container.terracotta #main aside#sidebar p.elect-donate-jump a:active, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:active {
+#container.terracotta #main aside#sidebar p.elect-donate-jump a:active, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a:active, #container.terracotta #main aside#sidebar p.elect-cta-jump a:active {
   -webkit-box-shadow: #eb191c 0 1px 2px inset;
   -moz-box-shadow: #eb191c 0 1px 2px inset;
   box-shadow: #eb191c 0 1px 2px inset;
 }
-#container.terracotta #main aside#sidebar p.elect-donate-jump a.disabled, #container.terracotta #main aside#sidebar p.elect-donate-jump a[disabled], #container.terracotta #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+#container.terracotta #main aside#sidebar p.elect-donate-jump a.disabled, #container.terracotta #main aside#sidebar p.elect-donate-jump a[disabled], #container.terracotta #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a[disabled], #container.terracotta #main aside#sidebar p.elect-cta-jump a.disabled, #container.terracotta #main aside#sidebar p.elect-cta-jump a[disabled] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   background: #ee3e41;
@@ -329,7 +329,7 @@ footer#footer .credit {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-#container.terracotta #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+#container.terracotta #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner, #container.terracotta #main aside#sidebar p.elect-cta-jump a::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
@@ -406,7 +406,7 @@ footer#footer .credit {
 #container.greenleaf #main h1, #container.greenleaf #main h2, #container.greenleaf #main h3, #container.greenleaf #main h4, #container.greenleaf #main h5, #container.greenleaf #main h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#container.greenleaf #main aside#sidebar p.elect-donate-jump a, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a {
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a, #container.greenleaf #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   padding: 0.5em 1em;
@@ -432,10 +432,10 @@ footer#footer .credit {
   text-shadow: #191a25 0 -1px 0;
   text-shadow: 1px 1px 1px #000;
 }
-#container.greenleaf #main aside#sidebar p.elect-donate-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-cta-jump a:hover {
   text-decoration: none;
 }
-#container.greenleaf #main aside#sidebar p.elect-donate-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:hover, #container.greenleaf #main aside#sidebar p.elect-cta-jump a:hover {
   background-color: #28293a;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #515476), color-stop(100%, #28293a));
   background: -webkit-linear-gradient(#515476, #28293a);
@@ -443,12 +443,12 @@ footer#footer .credit {
   background: -o-linear-gradient(#515476, #28293a);
   background: linear-gradient(#515476, #28293a);
 }
-#container.greenleaf #main aside#sidebar p.elect-donate-jump a:active, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:active {
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a:active, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a:active, #container.greenleaf #main aside#sidebar p.elect-cta-jump a:active {
   -webkit-box-shadow: #212331 0 1px 2px inset;
   -moz-box-shadow: #212331 0 1px 2px inset;
   box-shadow: #212331 0 1px 2px inset;
 }
-#container.greenleaf #main aside#sidebar p.elect-donate-jump a.disabled, #container.greenleaf #main aside#sidebar p.elect-donate-jump a[disabled], #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a.disabled, #container.greenleaf #main aside#sidebar p.elect-donate-jump a[disabled], #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a[disabled], #container.greenleaf #main aside#sidebar p.elect-cta-jump a.disabled, #container.greenleaf #main aside#sidebar p.elect-cta-jump a[disabled] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   background: #323449;
@@ -457,7 +457,7 @@ footer#footer .credit {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-#container.greenleaf #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+#container.greenleaf #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner, #container.greenleaf #main aside#sidebar p.elect-cta-jump a::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
@@ -534,7 +534,7 @@ footer#footer .credit {
 #container.victory1 #main h1, #container.victory1 #main h2, #container.victory1 #main h3, #container.victory1 #main h4, #container.victory1 #main h5, #container.victory1 #main h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#container.victory1 #main aside#sidebar p.elect-donate-jump a, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a, #container.victory1 #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   padding: 0.5em 1em;
@@ -560,10 +560,10 @@ footer#footer .credit {
   text-shadow: #cc0001 0 -1px 0;
   text-shadow: 1px 1px 1px #000;
 }
-#container.victory1 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:hover, #container.victory1 #main aside#sidebar p.elect-cta-jump a:hover {
   text-decoration: none;
 }
-#container.victory1 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:hover, #container.victory1 #main aside#sidebar p.elect-cta-jump a:hover {
   background-color: #f00001;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff5757), color-stop(100%, #f00001));
   background: -webkit-linear-gradient(#ff5757, #f00001);
@@ -571,12 +571,12 @@ footer#footer .credit {
   background: -o-linear-gradient(#ff5757, #f00001);
   background: linear-gradient(#ff5757, #f00001);
 }
-#container.victory1 #main aside#sidebar p.elect-donate-jump a:active, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:active {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a:active, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a:active, #container.victory1 #main aside#sidebar p.elect-cta-jump a:active {
   -webkit-box-shadow: #e00001 0 1px 2px inset;
   -moz-box-shadow: #e00001 0 1px 2px inset;
   box-shadow: #e00001 0 1px 2px inset;
 }
-#container.victory1 #main aside#sidebar p.elect-donate-jump a.disabled, #container.victory1 #main aside#sidebar p.elect-donate-jump a[disabled], #container.victory1 #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a.disabled, #container.victory1 #main aside#sidebar p.elect-donate-jump a[disabled], #container.victory1 #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a[disabled], #container.victory1 #main aside#sidebar p.elect-cta-jump a.disabled, #container.victory1 #main aside#sidebar p.elect-cta-jump a[disabled] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   background: #ff0a0b;
@@ -585,7 +585,7 @@ footer#footer .credit {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-#container.victory1 #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+#container.victory1 #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner, #container.victory1 #main aside#sidebar p.elect-cta-jump a::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
@@ -662,7 +662,7 @@ footer#footer .credit {
 #container.victory2 #main h1, #container.victory2 #main h2, #container.victory2 #main h3, #container.victory2 #main h4, #container.victory2 #main h5, #container.victory2 #main h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#container.victory2 #main aside#sidebar p.elect-donate-jump a, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a {
+#container.victory2 #main aside#sidebar p.elect-donate-jump a, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a, #container.victory2 #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   padding: 0.5em 1em;
@@ -688,10 +688,10 @@ footer#footer .credit {
   text-shadow: #445c7d 0 -1px 0;
   text-shadow: 1px 1px 1px #000;
 }
-#container.victory2 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.victory2 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:hover, #container.victory2 #main aside#sidebar p.elect-cta-jump a:hover {
   text-decoration: none;
 }
-#container.victory2 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.victory2 #main aside#sidebar p.elect-donate-jump a:hover, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:hover, #container.victory2 #main aside#sidebar p.elect-cta-jump a:hover {
   background-color: #516d95;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8ca1c0), color-stop(100%, #516d95));
   background: -webkit-linear-gradient(#8ca1c0, #516d95);
@@ -699,12 +699,12 @@ footer#footer .credit {
   background: -o-linear-gradient(#8ca1c0, #516d95);
   background: linear-gradient(#8ca1c0, #516d95);
 }
-#container.victory2 #main aside#sidebar p.elect-donate-jump a:active, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:active {
+#container.victory2 #main aside#sidebar p.elect-donate-jump a:active, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a:active, #container.victory2 #main aside#sidebar p.elect-cta-jump a:active {
   -webkit-box-shadow: #4c668b 0 1px 2px inset;
   -moz-box-shadow: #4c668b 0 1px 2px inset;
   box-shadow: #4c668b 0 1px 2px inset;
 }
-#container.victory2 #main aside#sidebar p.elect-donate-jump a.disabled, #container.victory2 #main aside#sidebar p.elect-donate-jump a[disabled], #container.victory2 #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+#container.victory2 #main aside#sidebar p.elect-donate-jump a.disabled, #container.victory2 #main aside#sidebar p.elect-donate-jump a[disabled], #container.victory2 #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a[disabled], #container.victory2 #main aside#sidebar p.elect-cta-jump a.disabled, #container.victory2 #main aside#sidebar p.elect-cta-jump a[disabled] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   background: #5a79a5;
@@ -713,7 +713,7 @@ footer#footer .credit {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-#container.victory2 #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+#container.victory2 #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner, #container.victory2 #main aside#sidebar p.elect-cta-jump a::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
@@ -790,7 +790,7 @@ footer#footer .credit {
 #container.fiesta #main h1, #container.fiesta #main h2, #container.fiesta #main h3, #container.fiesta #main h4, #container.fiesta #main h5, #container.fiesta #main h6 {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
-#container.fiesta #main aside#sidebar p.elect-donate-jump a, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a {
+#container.fiesta #main aside#sidebar p.elect-donate-jump a, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a, #container.fiesta #main aside#sidebar p.elect-cta-jump a {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   font-size: 24px;
   padding: 0.5em 1em;
@@ -816,10 +816,10 @@ footer#footer .credit {
   text-shadow: #ab2015 0 -1px 0;
   text-shadow: 1px 1px 1px #000;
 }
-#container.fiesta #main aside#sidebar p.elect-donate-jump a:hover, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.fiesta #main aside#sidebar p.elect-donate-jump a:hover, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a:hover, #container.fiesta #main aside#sidebar p.elect-cta-jump a:hover {
   text-decoration: none;
 }
-#container.fiesta #main aside#sidebar p.elect-donate-jump a:hover, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.fiesta #main aside#sidebar p.elect-donate-jump a:hover, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a:hover, #container.fiesta #main aside#sidebar p.elect-cta-jump a:hover {
   background-color: #ca2619;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb685e), color-stop(100%, #ca2619));
   background: -webkit-linear-gradient(#eb685e, #ca2619);
@@ -827,12 +827,12 @@ footer#footer .credit {
   background: -o-linear-gradient(#eb685e, #ca2619);
   background: linear-gradient(#eb685e, #ca2619);
 }
-#container.fiesta #main aside#sidebar p.elect-donate-jump a:active, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a:active {
+#container.fiesta #main aside#sidebar p.elect-donate-jump a:active, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a:active, #container.fiesta #main aside#sidebar p.elect-cta-jump a:active {
   -webkit-box-shadow: #bd2317 0 1px 2px inset;
   -moz-box-shadow: #bd2317 0 1px 2px inset;
   box-shadow: #bd2317 0 1px 2px inset;
 }
-#container.fiesta #main aside#sidebar p.elect-donate-jump a.disabled, #container.fiesta #main aside#sidebar p.elect-donate-jump a[disabled], #container.fiesta #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+#container.fiesta #main aside#sidebar p.elect-donate-jump a.disabled, #container.fiesta #main aside#sidebar p.elect-donate-jump a[disabled], #container.fiesta #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a[disabled], #container.fiesta #main aside#sidebar p.elect-cta-jump a.disabled, #container.fiesta #main aside#sidebar p.elect-cta-jump a[disabled] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   background: #e12a1c;
@@ -841,7 +841,7 @@ footer#footer .credit {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-#container.fiesta #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+#container.fiesta #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner, #container.fiesta #main aside#sidebar p.elect-cta-jump a::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
@@ -918,7 +918,7 @@ footer#footer .credit {
 #container.eggplant #main h1, #container.eggplant #main h2, #container.eggplant #main h3, #container.eggplant #main h4, #container.eggplant #main h5, #container.eggplant #main h6 {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
-#container.eggplant #main aside#sidebar p.elect-donate-jump a, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a {
+#container.eggplant #main aside#sidebar p.elect-donate-jump a, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a, #container.eggplant #main aside#sidebar p.elect-cta-jump a {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 24px;
   padding: 0.5em 1em;
@@ -944,10 +944,10 @@ footer#footer .credit {
   text-shadow: #1f0339 0 -1px 0;
   text-shadow: 1px 1px 1px #000;
 }
-#container.eggplant #main aside#sidebar p.elect-donate-jump a:hover, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.eggplant #main aside#sidebar p.elect-donate-jump a:hover, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:hover, #container.eggplant #main aside#sidebar p.elect-cta-jump a:hover {
   text-decoration: none;
 }
-#container.eggplant #main aside#sidebar p.elect-donate-jump a:hover, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:hover {
+#container.eggplant #main aside#sidebar p.elect-donate-jump a:hover, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:hover, #container.eggplant #main aside#sidebar p.elect-cta-jump a:hover {
   background-color: #31055b;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #650abc), color-stop(100%, #31055b));
   background: -webkit-linear-gradient(#650abc, #31055b);
@@ -955,12 +955,12 @@ footer#footer .credit {
   background: -o-linear-gradient(#650abc, #31055b);
   background: linear-gradient(#650abc, #31055b);
 }
-#container.eggplant #main aside#sidebar p.elect-donate-jump a:active, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:active {
+#container.eggplant #main aside#sidebar p.elect-donate-jump a:active, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a:active, #container.eggplant #main aside#sidebar p.elect-cta-jump a:active {
   -webkit-box-shadow: #29044c 0 1px 2px inset;
   -moz-box-shadow: #29044c 0 1px 2px inset;
   box-shadow: #29044c 0 1px 2px inset;
 }
-#container.eggplant #main aside#sidebar p.elect-donate-jump a.disabled, #container.eggplant #main aside#sidebar p.elect-donate-jump a[disabled], #container.eggplant #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a[disabled] {
+#container.eggplant #main aside#sidebar p.elect-donate-jump a.disabled, #container.eggplant #main aside#sidebar p.elect-donate-jump a[disabled], #container.eggplant #main aside#sidebar p.elect-newsletter-jump a.disabled, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a[disabled], #container.eggplant #main aside#sidebar p.elect-cta-jump a.disabled, #container.eggplant #main aside#sidebar p.elect-cta-jump a[disabled] {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   background: #3e0673;
@@ -969,7 +969,7 @@ footer#footer .credit {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-#container.eggplant #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner {
+#container.eggplant #main aside#sidebar p.elect-donate-jump a::-moz-focus-inner, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a::-moz-focus-inner, #container.eggplant #main aside#sidebar p.elect-cta-jump a::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
