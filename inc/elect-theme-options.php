@@ -42,11 +42,11 @@ $palette_options = array(
 	),
 	'1' => array(
 		'value' =>	'1',
-		'label' => __( 'Terracotta', 'electtheme' )
+		'label' => __( 'Terracotta (Bill Raines)', 'electtheme' )
 	),
 	'2' => array(
 		'value' =>	'2',
-		'label' => __( 'Greenleaf', 'electtheme' )
+		'label' => __( 'Greenleaf (Mike Otto)', 'electtheme' )
 	),
 	'3' => array(
 		'value' =>	'3',

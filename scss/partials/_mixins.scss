@@ -51,7 +51,9 @@ $button2: $light;
 				a {
 					font-family: $display;
 					$sb-padding: .5em 1em;
-					@include sassy-button("simple", 10px, 24px, $white, $accent2, darken($accent2,50%));
+					// @include sassy-button(gradient-style, border-radius, font-size, first-color, second-color, text-color, text-style, auto-states)
+					@include sassy-button("simple", 10px, 24px, lighten($accent1,20%), $accent1, $white);
+					text-shadow: 1px 1px 1px #000;
 				}
 			}
 			.elect-donate-widget {
