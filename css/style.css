@@ -90,21 +90,21 @@ header#header h1 img {
 nav#primary-navigation {
   clear: both;
   font-size: 1.5em;
-  line-height: 2em;
+  text-align: center;
 }
 nav#primary-navigation ul {
   margin: 0;
   padding: 0;
-  display: inline-block;
-  line-height: 1.25em;
+  display: block;
+  line-height: 1em;
 }
 nav#primary-navigation ul li {
-  display: inline-block;
+  display: block;
   white-space: nowrap;
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
 }
-nav#primary-navigation ul li a {
-  padding: 0 10px 0 2px;
+nav#primary-navigation ul li:last-child {
+  padding: 10px 0;
 }
 nav#primary-navigation ul li a:link {
   text-decoration: none !important;
@@ -132,6 +132,10 @@ nav#primary-navigation ul li a:active {
 }
 #main ul {
   list-style-type: square;
+}
+#main article header p.post-meta {
+  font-size: .8em;
+  font-style: italic;
 }
 #main aside#sidebar {
   margin-top: 16px;
@@ -180,6 +184,43 @@ footer#footer .credit {
 }
 
 @media (min-width: 760px) {
+  nav#primary-navigation {
+    clear: both;
+    font-size: 1.5em;
+    line-height: 2em;
+    text-align: left;
+  }
+  nav#primary-navigation ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1.25em;
+  }
+  nav#primary-navigation ul li {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 20px 20px 0 0;
+  }
+  nav#primary-navigation ul li:before, nav#primary-navigation ul li:after {
+    display: none;
+  }
+  nav#primary-navigation ul li a {
+    padding: 0 10px 0 2px;
+  }
+  nav#primary-navigation ul li a:link {
+    text-decoration: none !important;
+  }
+  nav#primary-navigation ul li a:visited {
+    text-decoration: none !important;
+  }
+  nav#primary-navigation ul li a:hover {
+    text-decoration: none !important;
+  }
+  nav#primary-navigation ul li a:active {
+    position: relative;
+    top: 1px;
+  }
+
   #main {
     float: none;
     width: auto;
@@ -251,9 +292,16 @@ footer#footer .credit {
   position: relative;
   top: 1px;
 }
+#container.terracotta h1 a:link, #container.terracotta h2 a:link, #container.terracotta h3 a:link, #container.terracotta h4 a:link, #container.terracotta h5 a:link, #container.terracotta h6 a:link {
+  text-decoration: none;
+}
+#container.terracotta h1 a:visited, #container.terracotta h2 a:visited, #container.terracotta h3 a:visited, #container.terracotta h4 a:visited, #container.terracotta h5 a:visited, #container.terracotta h6 a:visited {
+  text-decoration: none;
+}
 #container.terracotta header#header, #container.terracotta nav#primary-navigation {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   background-color: #ee3e41;
+  color: #f4ffff;
 }
 #container.terracotta header#header a:link, #container.terracotta nav#primary-navigation a:link {
   color: #f4ffff;
@@ -264,11 +312,11 @@ footer#footer .credit {
   text-decoration: none;
 }
 #container.terracotta header#header a:hover, #container.terracotta nav#primary-navigation a:hover {
-  color: #ffb7a7;
+  color: white;
   text-decoration: none;
 }
 #container.terracotta header#header a:active, #container.terracotta nav#primary-navigation a:active {
-  color: #ffb7a7;
+  color: white;
   position: relative;
   top: 1px;
 }
@@ -277,6 +325,9 @@ footer#footer .credit {
 }
 #container.terracotta #main h1, #container.terracotta #main h2, #container.terracotta #main h3, #container.terracotta #main h4, #container.terracotta #main h5, #container.terracotta #main h6 {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+#container.terracotta #main article {
+  border-bottom: 2px solid #060054;
 }
 #container.terracotta #main aside#sidebar p.elect-donate-jump a, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a, #container.terracotta #main aside#sidebar p.elect-cta-jump a {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
@@ -379,9 +430,16 @@ footer#footer .credit {
   position: relative;
   top: 1px;
 }
+#container.greenleaf h1 a:link, #container.greenleaf h2 a:link, #container.greenleaf h3 a:link, #container.greenleaf h4 a:link, #container.greenleaf h5 a:link, #container.greenleaf h6 a:link {
+  text-decoration: none;
+}
+#container.greenleaf h1 a:visited, #container.greenleaf h2 a:visited, #container.greenleaf h3 a:visited, #container.greenleaf h4 a:visited, #container.greenleaf h5 a:visited, #container.greenleaf h6 a:visited {
+  text-decoration: none;
+}
 #container.greenleaf header#header, #container.greenleaf nav#primary-navigation {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #323449;
+  color: #f9f9f9;
 }
 #container.greenleaf header#header a:link, #container.greenleaf nav#primary-navigation a:link {
   color: #f9f9f9;
@@ -392,11 +450,11 @@ footer#footer .credit {
   text-decoration: none;
 }
 #container.greenleaf header#header a:hover, #container.greenleaf nav#primary-navigation a:hover {
-  color: #010549;
+  color: #b1b3c9;
   text-decoration: none;
 }
 #container.greenleaf header#header a:active, #container.greenleaf nav#primary-navigation a:active {
-  color: #010549;
+  color: #b1b3c9;
   position: relative;
   top: 1px;
 }
@@ -405,6 +463,9 @@ footer#footer .credit {
 }
 #container.greenleaf #main h1, #container.greenleaf #main h2, #container.greenleaf #main h3, #container.greenleaf #main h4, #container.greenleaf #main h5, #container.greenleaf #main h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#container.greenleaf #main article {
+  border-bottom: 2px solid #323449;
 }
 #container.greenleaf #main aside#sidebar p.elect-donate-jump a, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a, #container.greenleaf #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -507,9 +568,16 @@ footer#footer .credit {
   position: relative;
   top: 1px;
 }
+#container.victory1 h1 a:link, #container.victory1 h2 a:link, #container.victory1 h3 a:link, #container.victory1 h4 a:link, #container.victory1 h5 a:link, #container.victory1 h6 a:link {
+  text-decoration: none;
+}
+#container.victory1 h1 a:visited, #container.victory1 h2 a:visited, #container.victory1 h3 a:visited, #container.victory1 h4 a:visited, #container.victory1 h5 a:visited, #container.victory1 h6 a:visited {
+  text-decoration: none;
+}
 #container.victory1 header#header, #container.victory1 nav#primary-navigation {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #ff0a0b;
+  color: white;
 }
 #container.victory1 header#header a:link, #container.victory1 nav#primary-navigation a:link {
   color: white;
@@ -520,11 +588,11 @@ footer#footer .credit {
   text-decoration: none;
 }
 #container.victory1 header#header a:hover, #container.victory1 nav#primary-navigation a:hover {
-  color: #f7f7ba;
+  color: white;
   text-decoration: none;
 }
 #container.victory1 header#header a:active, #container.victory1 nav#primary-navigation a:active {
-  color: #f7f7ba;
+  color: white;
   position: relative;
   top: 1px;
 }
@@ -533,6 +601,9 @@ footer#footer .credit {
 }
 #container.victory1 #main h1, #container.victory1 #main h2, #container.victory1 #main h3, #container.victory1 #main h4, #container.victory1 #main h5, #container.victory1 #main h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#container.victory1 #main article {
+  border-bottom: 2px solid #003366;
 }
 #container.victory1 #main aside#sidebar p.elect-donate-jump a, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a, #container.victory1 #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -635,9 +706,16 @@ footer#footer .credit {
   position: relative;
   top: 1px;
 }
+#container.victory2 h1 a:link, #container.victory2 h2 a:link, #container.victory2 h3 a:link, #container.victory2 h4 a:link, #container.victory2 h5 a:link, #container.victory2 h6 a:link {
+  text-decoration: none;
+}
+#container.victory2 h1 a:visited, #container.victory2 h2 a:visited, #container.victory2 h3 a:visited, #container.victory2 h4 a:visited, #container.victory2 h5 a:visited, #container.victory2 h6 a:visited {
+  text-decoration: none;
+}
 #container.victory2 header#header, #container.victory2 nav#primary-navigation {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #5a79a5;
+  color: #dee7ef;
 }
 #container.victory2 header#header a:link, #container.victory2 nav#primary-navigation a:link {
   color: #dee7ef;
@@ -648,11 +726,11 @@ footer#footer .credit {
   text-decoration: none;
 }
 #container.victory2 header#header a:hover, #container.victory2 nav#primary-navigation a:hover {
-  color: #9caac6;
+  color: white;
   text-decoration: none;
 }
 #container.victory2 header#header a:active, #container.victory2 nav#primary-navigation a:active {
-  color: #9caac6;
+  color: white;
   position: relative;
   top: 1px;
 }
@@ -661,6 +739,9 @@ footer#footer .credit {
 }
 #container.victory2 #main h1, #container.victory2 #main h2, #container.victory2 #main h3, #container.victory2 #main h4, #container.victory2 #main h5, #container.victory2 #main h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#container.victory2 #main article {
+  border-bottom: 2px solid #000063;
 }
 #container.victory2 #main aside#sidebar p.elect-donate-jump a, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a, #container.victory2 #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -763,9 +844,16 @@ footer#footer .credit {
   position: relative;
   top: 1px;
 }
+#container.fiesta h1 a:link, #container.fiesta h2 a:link, #container.fiesta h3 a:link, #container.fiesta h4 a:link, #container.fiesta h5 a:link, #container.fiesta h6 a:link {
+  text-decoration: none;
+}
+#container.fiesta h1 a:visited, #container.fiesta h2 a:visited, #container.fiesta h3 a:visited, #container.fiesta h4 a:visited, #container.fiesta h5 a:visited, #container.fiesta h6 a:visited {
+  text-decoration: none;
+}
 #container.fiesta header#header, #container.fiesta nav#primary-navigation {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   background-color: #e12a1c;
+  color: #fffccf;
 }
 #container.fiesta header#header a:link, #container.fiesta nav#primary-navigation a:link {
   color: #fffccf;
@@ -776,11 +864,11 @@ footer#footer .credit {
   text-decoration: none;
 }
 #container.fiesta header#header a:hover, #container.fiesta nav#primary-navigation a:hover {
-  color: #ffc1a8;
+  color: #fffdfd;
   text-decoration: none;
 }
 #container.fiesta header#header a:active, #container.fiesta nav#primary-navigation a:active {
-  color: #ffc1a8;
+  color: #fffdfd;
   position: relative;
   top: 1px;
 }
@@ -789,6 +877,9 @@ footer#footer .credit {
 }
 #container.fiesta #main h1, #container.fiesta #main h2, #container.fiesta #main h3, #container.fiesta #main h4, #container.fiesta #main h5, #container.fiesta #main h6 {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+#container.fiesta #main article {
+  border-bottom: 2px solid #072b30;
 }
 #container.fiesta #main aside#sidebar p.elect-donate-jump a, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a, #container.fiesta #main aside#sidebar p.elect-cta-jump a {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
@@ -891,9 +982,16 @@ footer#footer .credit {
   position: relative;
   top: 1px;
 }
+#container.eggplant h1 a:link, #container.eggplant h2 a:link, #container.eggplant h3 a:link, #container.eggplant h4 a:link, #container.eggplant h5 a:link, #container.eggplant h6 a:link {
+  text-decoration: none;
+}
+#container.eggplant h1 a:visited, #container.eggplant h2 a:visited, #container.eggplant h3 a:visited, #container.eggplant h4 a:visited, #container.eggplant h5 a:visited, #container.eggplant h6 a:visited {
+  text-decoration: none;
+}
 #container.eggplant header#header, #container.eggplant nav#primary-navigation {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   background-color: #3e0673;
+  color: #f7ffff;
 }
 #container.eggplant header#header a:link, #container.eggplant nav#primary-navigation a:link {
   color: #f7ffff;
@@ -904,11 +1002,11 @@ footer#footer .credit {
   text-decoration: none;
 }
 #container.eggplant header#header a:hover, #container.eggplant nav#primary-navigation a:hover {
-  color: #b363e8;
+  color: #be80f8;
   text-decoration: none;
 }
 #container.eggplant header#header a:active, #container.eggplant nav#primary-navigation a:active {
-  color: #b363e8;
+  color: #be80f8;
   position: relative;
   top: 1px;
 }
@@ -917,6 +1015,9 @@ footer#footer .credit {
 }
 #container.eggplant #main h1, #container.eggplant #main h2, #container.eggplant #main h3, #container.eggplant #main h4, #container.eggplant #main h5, #container.eggplant #main h6 {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+#container.eggplant #main article {
+  border-bottom: 2px solid black;
 }
 #container.eggplant #main aside#sidebar p.elect-donate-jump a, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a, #container.eggplant #main aside#sidebar p.elect-cta-jump a {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;

@@ -27,14 +27,22 @@ $button2: $light;
 		&:active { color: lighten($accent1,20%); text-decoration: none; position: relative; top: 1px; }
 	}
 
+	h1, h2, h3, h4, h5, h6 {
+		a {
+			&:link { text-decoration: none; }
+			&:visited { text-decoration: none; }
+		}
+	}
+
 	header#header, nav#primary-navigation {
 		font-family: $display;
 		background-color: $accent1;
+		color: $light;
 		a {
 			&:link { color: $light; text-decoration: none; }
 			&:visited { color: $light; text-decoration: none; }
-			&:hover { color: $accent2; text-decoration: none; }
-			&:active { color: $accent2; position: relative; top: 1px; }
+			&:hover { color: lighten($accent1,50%); text-decoration: none; }
+			&:active { color: lighten($accent1,50%); position: relative; top: 1px; }
 		}
 	}
 
@@ -45,6 +53,9 @@ $button2: $light;
 	#main {
 		h1, h2, h3, h4, h5, h6 {
 			font-family: $display;
+		}
+		article {
+			border-bottom: 2px solid $dark;
 		}
 		aside#sidebar {
 			p.elect-donate-jump, p.elect-newsletter-jump, p.elect-cta-jump {

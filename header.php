@@ -17,7 +17,7 @@
      Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+  <title><?php bloginfo('name'); ?> <?php wp_title('&ndash;', true, 'left'); ?></title>
   
   <meta name="description" content="">
   <meta name="author" content="">
@@ -116,7 +116,7 @@
         'theme_location' => 'primary-navigation',
         'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
         'before' => '',
-        'after' => '&nbsp;&nbsp;&nbsp;&nbsp;',
+        'after' => '',
         'depth' => 1
       )
     ); ?>

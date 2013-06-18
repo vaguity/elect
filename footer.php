@@ -7,7 +7,7 @@
 
   <footer id="footer">
       <p class="copyright">&copy; <a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></p>
-      <p class="credit">Site built by <a href="http://www.uptownpoliticalconsulting.com/">Uptown Political Consulting</a>.</p>
+      <p class="credit">Site built by <a href="http://uptownpoliticalconsulting.com/">Uptown Political Consulting</a>.</p>
   </footer>
 </div> <!-- #container -->
 
