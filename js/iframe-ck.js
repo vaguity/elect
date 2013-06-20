@@ -1,2 +1,2 @@
 // Making iframe responsive
-$(document).ready(function(){var e=$("#main article").width();$("iframe").css("width",e)});$(window).resize(function(){var e=$("#main article").width();$("iframe").css("width",e)});
+$(document).ready(function(){var e=$("#main article").width();$("#main article iframe").css("width",e)});$(window).resize(function(){var e=$("#main article").width();$("#main article iframe").css("width",e)});
