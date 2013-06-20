@@ -171,6 +171,7 @@ nav#primary-navigation ul li a:active {
 }
 
 footer#footer {
+  margin-top: 20px;
   font-size: 12px;
   clear: both;
   display: block;
@@ -345,7 +346,7 @@ footer#footer .credit {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
 #container.terracotta #main article {
-  border-bottom: 2px solid #060054;
+  border-bottom: 1px solid #060054;
 }
 #container.terracotta #main article img {
   padding: 2px;
@@ -489,7 +490,7 @@ footer#footer .credit {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #container.greenleaf #main article {
-  border-bottom: 2px solid #323449;
+  border-bottom: 1px solid #323449;
 }
 #container.greenleaf #main article img {
   padding: 2px;
@@ -633,7 +634,7 @@ footer#footer .credit {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #container.victory1 #main article {
-  border-bottom: 2px solid #003366;
+  border-bottom: 1px solid #003366;
 }
 #container.victory1 #main article img {
   padding: 2px;
@@ -777,7 +778,7 @@ footer#footer .credit {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #container.victory2 #main article {
-  border-bottom: 2px solid #000063;
+  border-bottom: 1px solid #000063;
 }
 #container.victory2 #main article img {
   padding: 2px;
@@ -921,7 +922,7 @@ footer#footer .credit {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
 #container.fiesta #main article {
-  border-bottom: 2px solid #072b30;
+  border-bottom: 1px solid #072b30;
 }
 #container.fiesta #main article img {
   padding: 2px;
@@ -1065,7 +1066,7 @@ footer#footer .credit {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 #container.eggplant #main article {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 #container.eggplant #main article img {
   padding: 2px;
