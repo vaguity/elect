@@ -6,8 +6,17 @@
 ?>
 
   <footer id="footer">
-      <p class="copyright">&copy; <a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></p>
-      <p class="credit">Site built by <a href="http://uptownpoliticalconsulting.com/">Uptown Political Consulting</a>.</p>
+    <p class="copyright"><a href="<?php echo get_option('home'); ?>/">
+      <?php $options = get_option('elect_theme_options');
+
+        if ($options['legaltext']) {
+          echo $options['legaltext'] . '</a> / ';
+        }
+      ?>
+
+    &copy; <?php echo date('Y'); ?></p>
+
+    <p class="credit">Site built by <a href="http://uptownpoliticalconsulting.com/">Uptown Political Consulting</a>.</p>
   </footer>
 </div> <!-- #container -->
 
@@ -21,7 +30,6 @@
   <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/main.js") ?>
 
 <?php
-  $options = get_option('elect_theme_options');
   if (strpos($options['gacode'],'UA-') !== false) {
     $gacode = $options['gacode'];
 ?>

@@ -206,6 +206,16 @@ function theme_options_do_page() {
                     <td><input type="text" name="elect_theme_options[gacode]" value="<?php echo $options['gacode']; ?>" style="width: 300px;" /></td>
                 </tr>
 
+				<?php
+				/**
+				 * Logo URL
+				 */
+				?>
+				<tr valign="top"><th scope="row">Legal Text<br /><br /><em>This text will appear in the footer of the page, before the copyright.</th>
+
+                    <td><input type="text" name="elect_theme_options[legaltext]" value="<?php echo $options['legaltext']; ?>" style="width: 300px;" /></td>
+                </tr>
+
 			</table>
 
 			<p class="submit">
