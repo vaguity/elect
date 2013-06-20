@@ -13,11 +13,11 @@
           echo $options['legaltext'] . '</a> / ';
         }
         else {
-          echo '</a>';
+          echo '&copy; ' . date('Y'); . '</p></a>';
         }
       ?>
 
-    &copy; <?php echo date('Y'); ?></p>
+    
 
     <p class="credit">Site built by <a href="http://uptownpoliticalconsulting.com/">Uptown Political Consulting</a>.</p>
   </footer>
