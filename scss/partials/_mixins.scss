@@ -69,6 +69,7 @@ $button2: $light;
 					// @include sassy-button(gradient-style, border-radius, font-size, first-color, second-color, text-color, text-style, auto-states)
 					@include sassy-button("simple", 10px, 24px, lighten($accent2,20%), $accent2, $white);
 					text-shadow: 1px 1px 1px #000;
+					text-decoration: none;
 				}
 			}
 			// .elect-donate-widget {
