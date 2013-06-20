@@ -106,7 +106,10 @@ function theme_options_do_page() {
 				 * Logo URL
 				 */
 				?>
-				<tr valign="top"><th scope="row">Logo URL<br /><br /><em>Upload an image to the media library, get the URL, and add it here.</em></th>
+				<tr valign="top"><th scope="row">Logo URL<br /><br /><em>Upload an image to the media library, get the URL, and add it here.<br /><br />
+
+				The logo / banner will automatically scale, but the maximum height should be 300 pixels.</em></th>
+
                     <td><input type="text" name="elect_theme_options[logourl]" value="<?php echo $options['logourl']; ?>" style="width: 300px;" /></td>
                 </tr>
 
