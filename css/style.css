@@ -234,6 +234,14 @@ footer#footer .credit {
     width: auto;
     margin-right: auto;
   }
+  #main article .alignleft {
+    clear: none;
+    float: left;
+  }
+  #main article .alignright {
+    clear: none;
+    float: right;
+  }
 
   #container.sideright #main article {
     width: 62.58389%;
