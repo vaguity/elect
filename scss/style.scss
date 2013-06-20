@@ -108,10 +108,12 @@ nav#primary-navigation {
 			}
 		}
 		.alignleft {
-			margin: 10px 10px 4px 0;
+			clear: both;
+			float: none;
 		}
 		.alignright {
-			margin: 10px 0 4px 10px;
+			clear: both;
+			float: none;
 		}
 	}
 

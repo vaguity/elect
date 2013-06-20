@@ -138,10 +138,12 @@ nav#primary-navigation ul li a:active {
   font-style: italic;
 }
 #main article .alignleft {
-  margin: 10px 10px 4px 0;
+  clear: both;
+  float: none;
 }
 #main article .alignright {
-  margin: 10px 0 4px 10px;
+  clear: both;
+  float: none;
 }
 #main aside#sidebar {
   margin-top: 16px;
