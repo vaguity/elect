@@ -10,10 +10,10 @@
       <?php $options = get_option('elect_theme_options');
 
         if ($options['legaltext']) {
-          echo $options['legaltext'] . '</a> / ';
+          echo $options['legaltext'] . '</a></p>';
         }
         else {
-          echo '&copy; ' . date('Y'); . '</p></a>';
+          echo '&copy; ' . date('Y') . '</a></p>';
         }
       ?>
 
