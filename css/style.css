@@ -336,6 +336,7 @@ footer#footer .credit {
   border-bottom: 2px solid #060054;
 }
 #container.terracotta #main article img {
+  padding: 2px;
   border: 2px solid #ee3e41;
 }
 #container.terracotta #main aside#sidebar p.elect-donate-jump a, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a, #container.terracotta #main aside#sidebar p.elect-cta-jump a {
@@ -477,6 +478,7 @@ footer#footer .credit {
   border-bottom: 2px solid #323449;
 }
 #container.greenleaf #main article img {
+  padding: 2px;
   border: 2px solid #323449;
 }
 #container.greenleaf #main aside#sidebar p.elect-donate-jump a, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a, #container.greenleaf #main aside#sidebar p.elect-cta-jump a {
@@ -618,6 +620,7 @@ footer#footer .credit {
   border-bottom: 2px solid #003366;
 }
 #container.victory1 #main article img {
+  padding: 2px;
   border: 2px solid #ff0a0b;
 }
 #container.victory1 #main aside#sidebar p.elect-donate-jump a, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a, #container.victory1 #main aside#sidebar p.elect-cta-jump a {
@@ -759,6 +762,7 @@ footer#footer .credit {
   border-bottom: 2px solid #000063;
 }
 #container.victory2 #main article img {
+  padding: 2px;
   border: 2px solid #5a79a5;
 }
 #container.victory2 #main aside#sidebar p.elect-donate-jump a, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a, #container.victory2 #main aside#sidebar p.elect-cta-jump a {
@@ -900,6 +904,7 @@ footer#footer .credit {
   border-bottom: 2px solid #072b30;
 }
 #container.fiesta #main article img {
+  padding: 2px;
   border: 2px solid #e12a1c;
 }
 #container.fiesta #main aside#sidebar p.elect-donate-jump a, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a, #container.fiesta #main aside#sidebar p.elect-cta-jump a {
@@ -1041,6 +1046,7 @@ footer#footer .credit {
   border-bottom: 2px solid black;
 }
 #container.eggplant #main article img {
+  padding: 2px;
   border: 2px solid #3e0673;
 }
 #container.eggplant #main aside#sidebar p.elect-donate-jump a, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a, #container.eggplant #main aside#sidebar p.elect-cta-jump a {
