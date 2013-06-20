@@ -65,16 +65,14 @@ $button2: $light;
 			p.elect-donate-jump, p.elect-newsletter-jump, p.elect-cta-jump {
 				a {
 					font-family: $display;
-					$sb-padding: .5em 1em;
+					$sb-padding: .25em .5em;
 					// @include sassy-button(gradient-style, border-radius, font-size, first-color, second-color, text-color, text-style, auto-states)
 					@include sassy-button("simple", 10px, 24px, lighten($accent2,20%), $accent2, $white);
 					text-shadow: 1px 1px 1px #000;
 					text-decoration: none;
+					line-height: 1.25em;
 				}
 			}
-			// .elect-donate-widget {
-
-			// }
 		}
 	}
 
