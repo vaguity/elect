@@ -56,6 +56,9 @@ $button2: $light;
 		}
 		article {
 			border-bottom: 2px solid $dark;
+			img {
+				border: 2px solid $accent1;
+			}
 		}
 		aside#sidebar {
 			p.elect-donate-jump, p.elect-newsletter-jump, p.elect-cta-jump {
