@@ -192,10 +192,12 @@ footer#footer {
 			.alignleft {
 				clear: none;
 				float: left;
+				margin: 4px 10px 4px 0;
 			}
 			.alignright {
 				clear: none;
 				float: right;
+				margin: 4px 0 4px 10px;
 			}
 		}
 	}

@@ -237,10 +237,12 @@ footer#footer .credit {
   #main article .alignleft {
     clear: none;
     float: left;
+    margin: 4px 10px 4px 0;
   }
   #main article .alignright {
     clear: none;
     float: right;
+    margin: 4px 0 4px 10px;
   }
 
   #container.sideright #main article {
