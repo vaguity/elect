@@ -137,6 +137,12 @@ nav#primary-navigation ul li a:active {
   font-size: .8em;
   font-style: italic;
 }
+#main article .alignleft {
+  margin: 10px 10px 4px 0;
+}
+#main article .alignright {
+  margin: 10px 0 4px 10px;
+}
 #main aside#sidebar {
   margin-top: 16px;
   font-size: 14px;
