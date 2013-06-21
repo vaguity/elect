@@ -17,8 +17,6 @@
         }
       ?>
 
-    
-
     <p class="credit">Site built by <a href="http://uptownpoliticalconsulting.com/">Uptown Political Consulting</a>.</p>
   </footer>
 </div> <!-- #container -->
