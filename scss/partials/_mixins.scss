@@ -60,6 +60,10 @@ $button2: $light;
 				padding: 2px;
 				border: 2px solid $accent1;
 			}
+			hr {
+				border: 0;
+				border-bottom: 1px solid $dark;
+			}
 		}
 		aside#sidebar {
 			p.elect-donate-jump, p.elect-newsletter-jump, p.elect-cta-jump {

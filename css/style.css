@@ -352,6 +352,10 @@ footer#footer .credit {
   padding: 2px;
   border: 2px solid #ee3e41;
 }
+#container.terracotta #main article hr {
+  border: 0;
+  border-bottom: 1px solid #060054;
+}
 #container.terracotta #main aside#sidebar p.elect-donate-jump a, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a, #container.terracotta #main aside#sidebar p.elect-cta-jump a {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   font-size: 24px;
@@ -495,6 +499,10 @@ footer#footer .credit {
 #container.greenleaf #main article img {
   padding: 2px;
   border: 2px solid #323449;
+}
+#container.greenleaf #main article hr {
+  border: 0;
+  border-bottom: 1px solid #323449;
 }
 #container.greenleaf #main aside#sidebar p.elect-donate-jump a, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a, #container.greenleaf #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -640,6 +648,10 @@ footer#footer .credit {
   padding: 2px;
   border: 2px solid #ff0a0b;
 }
+#container.victory1 #main article hr {
+  border: 0;
+  border-bottom: 1px solid #003366;
+}
 #container.victory1 #main aside#sidebar p.elect-donate-jump a, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a, #container.victory1 #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
@@ -783,6 +795,10 @@ footer#footer .credit {
 #container.victory2 #main article img {
   padding: 2px;
   border: 2px solid #5a79a5;
+}
+#container.victory2 #main article hr {
+  border: 0;
+  border-bottom: 1px solid #000063;
 }
 #container.victory2 #main aside#sidebar p.elect-donate-jump a, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a, #container.victory2 #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -928,6 +944,10 @@ footer#footer .credit {
   padding: 2px;
   border: 2px solid #e12a1c;
 }
+#container.fiesta #main article hr {
+  border: 0;
+  border-bottom: 1px solid #072b30;
+}
 #container.fiesta #main aside#sidebar p.elect-donate-jump a, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a, #container.fiesta #main aside#sidebar p.elect-cta-jump a {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   font-size: 24px;
@@ -1071,6 +1091,10 @@ footer#footer .credit {
 #container.eggplant #main article img {
   padding: 2px;
   border: 2px solid #3e0673;
+}
+#container.eggplant #main article hr {
+  border: 0;
+  border-bottom: 1px solid black;
 }
 #container.eggplant #main aside#sidebar p.elect-donate-jump a, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a, #container.eggplant #main aside#sidebar p.elect-cta-jump a {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
