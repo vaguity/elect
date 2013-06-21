@@ -356,6 +356,63 @@ footer#footer .credit {
   border: 0;
   border-bottom: 1px solid #060054;
 }
+#container.terracotta #main article a.cta-button {
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  font-size: 24px;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFFFAC99');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffb7a7));
+  background: -webkit-linear-gradient(#ffffff, #ffb7a7);
+  background: -moz-linear-gradient(#ffffff, #ffb7a7);
+  background: -o-linear-gradient(#ffffff, #ffb7a7);
+  background: linear-gradient(#ffffff, #ffb7a7);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid #ffa28e;
+  color: white;
+  text-shadow: #ff8f77 0 -1px 0;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: none;
+  line-height: 1.25em;
+}
+#container.terracotta #main article a.cta-button:hover {
+  text-decoration: none;
+}
+#container.terracotta #main article a.cta-button:hover {
+  background-color: #ffa28e;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffeae5), color-stop(100%, #ffa28e));
+  background: -webkit-linear-gradient(#ffeae5, #ffa28e);
+  background: -moz-linear-gradient(#ffeae5, #ffa28e);
+  background: -o-linear-gradient(#ffeae5, #ffa28e);
+  background: linear-gradient(#ffeae5, #ffa28e);
+}
+#container.terracotta #main article a.cta-button:active {
+  -webkit-box-shadow: #ff967e 0 1px 2px inset;
+  -moz-box-shadow: #ff967e 0 1px 2px inset;
+  box-shadow: #ff967e 0 1px 2px inset;
+}
+#container.terracotta #main article a.cta-button.disabled, #container.terracotta #main article a.cta-button[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #ffb7a7;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.terracotta #main article a.cta-button::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
 #container.terracotta #main aside#sidebar p.elect-donate-jump a, #container.terracotta #main aside#sidebar p.elect-newsletter-jump a, #container.terracotta #main aside#sidebar p.elect-cta-jump a {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   font-size: 24px;
@@ -503,6 +560,63 @@ footer#footer .credit {
 #container.greenleaf #main article hr {
   border: 0;
   border-bottom: 1px solid #323449;
+}
+#container.greenleaf #main article a.cta-button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFF3535', endColorstr='#FFCE0000');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff3535), color-stop(100%, #ce0000));
+  background: -webkit-linear-gradient(#ff3535, #ce0000);
+  background: -moz-linear-gradient(#ff3535, #ce0000);
+  background: -o-linear-gradient(#ff3535, #ce0000);
+  background: linear-gradient(#ff3535, #ce0000);
+  -webkit-box-shadow: #ff8282 0 1px 0 inset;
+  -moz-box-shadow: #ff8282 0 1px 0 inset;
+  box-shadow: #ff8282 0 1px 0 inset;
+  border: 1px solid #b40000;
+  color: white;
+  text-shadow: #910000 0 -1px 0;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: none;
+  line-height: 1.25em;
+}
+#container.greenleaf #main article a.cta-button:hover {
+  text-decoration: none;
+}
+#container.greenleaf #main article a.cta-button:hover {
+  background-color: #b40000;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff1c1c), color-stop(100%, #b40000));
+  background: -webkit-linear-gradient(#ff1c1c, #b40000);
+  background: -moz-linear-gradient(#ff1c1c, #b40000);
+  background: -o-linear-gradient(#ff1c1c, #b40000);
+  background: linear-gradient(#ff1c1c, #b40000);
+}
+#container.greenleaf #main article a.cta-button:active {
+  -webkit-box-shadow: #a50000 0 1px 2px inset;
+  -moz-box-shadow: #a50000 0 1px 2px inset;
+  box-shadow: #a50000 0 1px 2px inset;
+}
+#container.greenleaf #main article a.cta-button.disabled, #container.greenleaf #main article a.cta-button[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #ce0000;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.greenleaf #main article a.cta-button::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
 }
 #container.greenleaf #main aside#sidebar p.elect-donate-jump a, #container.greenleaf #main aside#sidebar p.elect-newsletter-jump a, #container.greenleaf #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -652,6 +766,63 @@ footer#footer .credit {
   border: 0;
   border-bottom: 1px solid #003366;
 }
+#container.victory1 #main article a.cta-button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFF4F4A4');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f7f7ba));
+  background: -webkit-linear-gradient(#ffffff, #f7f7ba);
+  background: -moz-linear-gradient(#ffffff, #f7f7ba);
+  background: -o-linear-gradient(#ffffff, #f7f7ba);
+  background: linear-gradient(#ffffff, #f7f7ba);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid #f4f4a3;
+  color: white;
+  text-shadow: #f1f186 0 -1px 0;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: none;
+  line-height: 1.25em;
+}
+#container.victory1 #main article a.cta-button:hover {
+  text-decoration: none;
+}
+#container.victory1 #main article a.cta-button:hover {
+  background-color: #f4f4a3;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfce8), color-stop(100%, #f4f4a3));
+  background: -webkit-linear-gradient(#fcfce8, #f4f4a3);
+  background: -moz-linear-gradient(#fcfce8, #f4f4a3);
+  background: -o-linear-gradient(#fcfce8, #f4f4a3);
+  background: linear-gradient(#fcfce8, #f4f4a3);
+}
+#container.victory1 #main article a.cta-button:active {
+  -webkit-box-shadow: #f3f395 0 1px 2px inset;
+  -moz-box-shadow: #f3f395 0 1px 2px inset;
+  box-shadow: #f3f395 0 1px 2px inset;
+}
+#container.victory1 #main article a.cta-button.disabled, #container.victory1 #main article a.cta-button[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #f7f7ba;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.victory1 #main article a.cta-button::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
 #container.victory1 #main aside#sidebar p.elect-donate-jump a, #container.victory1 #main aside#sidebar p.elect-newsletter-jump a, #container.victory1 #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
@@ -799,6 +970,63 @@ footer#footer .credit {
 #container.victory2 #main article hr {
   border: 0;
   border-bottom: 1px solid #000063;
+}
+#container.victory2 #main article a.cta-button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDDE2EB', endColorstr='#FF9CAAC6');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dde2eb), color-stop(100%, #9caac6));
+  background: -webkit-linear-gradient(#dde2eb, #9caac6);
+  background: -moz-linear-gradient(#dde2eb, #9caac6);
+  background: -o-linear-gradient(#dde2eb, #9caac6);
+  background: linear-gradient(#dde2eb, #9caac6);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid #8c9cbd;
+  color: white;
+  text-shadow: #7589b0 0 -1px 0;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: none;
+  line-height: 1.25em;
+}
+#container.victory2 #main article a.cta-button:hover {
+  text-decoration: none;
+}
+#container.victory2 #main article a.cta-button:hover {
+  background-color: #8c9cbd;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cdd4e2), color-stop(100%, #8c9cbd));
+  background: -webkit-linear-gradient(#cdd4e2, #8c9cbd);
+  background: -moz-linear-gradient(#cdd4e2, #8c9cbd);
+  background: -o-linear-gradient(#cdd4e2, #8c9cbd);
+  background: linear-gradient(#cdd4e2, #8c9cbd);
+}
+#container.victory2 #main article a.cta-button:active {
+  -webkit-box-shadow: #8294b7 0 1px 2px inset;
+  -moz-box-shadow: #8294b7 0 1px 2px inset;
+  box-shadow: #8294b7 0 1px 2px inset;
+}
+#container.victory2 #main article a.cta-button.disabled, #container.victory2 #main article a.cta-button[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #9caac6;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.victory2 #main article a.cta-button::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
 }
 #container.victory2 #main aside#sidebar p.elect-donate-jump a, #container.victory2 #main aside#sidebar p.elect-newsletter-jump a, #container.victory2 #main aside#sidebar p.elect-cta-jump a {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -948,6 +1176,63 @@ footer#footer .credit {
   border: 0;
   border-bottom: 1px solid #072b30;
 }
+#container.fiesta #main article a.cta-button {
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  font-size: 24px;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFFFB699');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ffc1a8));
+  background: -webkit-linear-gradient(#ffffff, #ffc1a8);
+  background: -moz-linear-gradient(#ffffff, #ffc1a8);
+  background: -o-linear-gradient(#ffffff, #ffc1a8);
+  background: linear-gradient(#ffffff, #ffc1a8);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid #ffaf8f;
+  color: white;
+  text-shadow: #ff9e77 0 -1px 0;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: none;
+  line-height: 1.25em;
+}
+#container.fiesta #main article a.cta-button:hover {
+  text-decoration: none;
+}
+#container.fiesta #main article a.cta-button:hover {
+  background-color: #ffaf8f;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffede5), color-stop(100%, #ffaf8f));
+  background: -webkit-linear-gradient(#ffede5, #ffaf8f);
+  background: -moz-linear-gradient(#ffede5, #ffaf8f);
+  background: -o-linear-gradient(#ffede5, #ffaf8f);
+  background: linear-gradient(#ffede5, #ffaf8f);
+}
+#container.fiesta #main article a.cta-button:active {
+  -webkit-box-shadow: #ffa47f 0 1px 2px inset;
+  -moz-box-shadow: #ffa47f 0 1px 2px inset;
+  box-shadow: #ffa47f 0 1px 2px inset;
+}
+#container.fiesta #main article a.cta-button.disabled, #container.fiesta #main article a.cta-button[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #ffc1a8;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.fiesta #main article a.cta-button::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
 #container.fiesta #main aside#sidebar p.elect-donate-jump a, #container.fiesta #main aside#sidebar p.elect-newsletter-jump a, #container.fiesta #main aside#sidebar p.elect-cta-jump a {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   font-size: 24px;
@@ -1095,6 +1380,63 @@ footer#footer .credit {
 #container.eggplant #main article hr {
   border: 0;
   border-bottom: 1px solid black;
+}
+#container.eggplant #main article a.cta-button {
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 24px;
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDEBCF5', endColorstr='#FFB363E8');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #debcf5), color-stop(100%, #b363e8));
+  background: -webkit-linear-gradient(#debcf5, #b363e8);
+  background: -moz-linear-gradient(#debcf5, #b363e8);
+  background: -o-linear-gradient(#debcf5, #b363e8);
+  background: linear-gradient(#debcf5, #b363e8);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid #a84de5;
+  color: white;
+  text-shadow: #992ee0 0 -1px 0;
+  text-shadow: 1px 1px 1px #000;
+  text-decoration: none;
+  line-height: 1.25em;
+}
+#container.eggplant #main article a.cta-button:hover {
+  text-decoration: none;
+}
+#container.eggplant #main article a.cta-button:hover {
+  background-color: #a84de5;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d3a6f2), color-stop(100%, #a84de5));
+  background: -webkit-linear-gradient(#d3a6f2, #a84de5);
+  background: -moz-linear-gradient(#d3a6f2, #a84de5);
+  background: -o-linear-gradient(#d3a6f2, #a84de5);
+  background: linear-gradient(#d3a6f2, #a84de5);
+}
+#container.eggplant #main article a.cta-button:active {
+  -webkit-box-shadow: #a23fe3 0 1px 2px inset;
+  -moz-box-shadow: #a23fe3 0 1px 2px inset;
+  box-shadow: #a23fe3 0 1px 2px inset;
+}
+#container.eggplant #main article a.cta-button.disabled, #container.eggplant #main article a.cta-button[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: #b363e8;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#container.eggplant #main article a.cta-button::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
 }
 #container.eggplant #main aside#sidebar p.elect-donate-jump a, #container.eggplant #main aside#sidebar p.elect-newsletter-jump a, #container.eggplant #main aside#sidebar p.elect-cta-jump a {
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;

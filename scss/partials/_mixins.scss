@@ -15,6 +15,17 @@ $body: Georgia, Times, "Times New Roman", serif;
 $button1: $accent1;
 $button2: $light;
 
+// Mixin for call-to-action button
+@mixin cta-button {
+	font-family: $display;
+	$sb-padding: .25em .5em;
+	// @include sassy-button(gradient-style, border-radius, font-size, first-color, second-color, text-color, text-style, auto-states)
+	@include sassy-button("simple", 10px, 24px, lighten($accent2,20%), $accent2, $white);
+	text-shadow: 1px 1px 1px #000;
+	text-decoration: none;
+	line-height: 1.25em;
+}
+
 // Mixin for the specific stylesheets used by _palette
 @mixin elect-style {	
 	color: $dark;
@@ -64,17 +75,14 @@ $button2: $light;
 				border: 0;
 				border-bottom: 1px solid $dark;
 			}
+			a.cta-button {
+				@include cta-button;
+			}
 		}
 		aside#sidebar {
 			p.elect-donate-jump, p.elect-newsletter-jump, p.elect-cta-jump {
 				a {
-					font-family: $display;
-					$sb-padding: .25em .5em;
-					// @include sassy-button(gradient-style, border-radius, font-size, first-color, second-color, text-color, text-style, auto-states)
-					@include sassy-button("simple", 10px, 24px, lighten($accent2,20%), $accent2, $white);
-					text-shadow: 1px 1px 1px #000;
-					text-decoration: none;
-					line-height: 1.25em;
+					@include cta-button;
 				}
 			}
 		}
