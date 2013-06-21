@@ -6,14 +6,14 @@
 ?>
 
   <footer id="footer">
-    <p class="copyright"><a href="<?php echo get_option('home'); ?>/">
+    <p class="copyright">
       <?php $options = get_option('elect_theme_options');
 
         if ($options['legaltext']) {
-          echo $options['legaltext'] . '</a></p>';
+          echo $options['legaltext'] . '</p>';
         }
         else {
-          echo '&copy; ' . date('Y') . '</a></p>';
+          echo '&copy; ' . date('Y') . '</p>';
         }
       ?>
 
