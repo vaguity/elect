@@ -53,6 +53,7 @@
   <![endif]-->
 
 <div id="container" <?php
+  // This checks for the palette chosen in the theme options and applied the class to the #container div
   $options = get_option('elect_theme_options');
   if ($options['palette'] == 1) {
     echo 'class="terracotta ';
