@@ -154,19 +154,19 @@ nav#primary-navigation ul li a:active {
 #main aside#sidebar div {
   margin-bottom: 40px;
 }
-#main aside#sidebar p.elect-donate-jump, #main aside#sidebar p.elect-newsletter-jump {
+#main aside#sidebar p.elect-donate-jump, #main aside#sidebar p.elect-newsletter-jump, #main aside#sidebar p.elect-cta-jump {
   text-align: center;
 }
-#main aside#sidebar p.elect-donate-jump a:link, #main aside#sidebar p.elect-newsletter-jump a:link {
+#main aside#sidebar p.elect-donate-jump a:link, #main aside#sidebar p.elect-newsletter-jump a:link, #main aside#sidebar p.elect-cta-jump a:link {
   text-decoration: none;
 }
-#main aside#sidebar p.elect-donate-jump a:visited, #main aside#sidebar p.elect-newsletter-jump a:visited {
+#main aside#sidebar p.elect-donate-jump a:visited, #main aside#sidebar p.elect-newsletter-jump a:visited, #main aside#sidebar p.elect-cta-jump a:visited {
   text-decoration: none;
 }
-#main aside#sidebar p.elect-donate-jump a:hover, #main aside#sidebar p.elect-newsletter-jump a:hover {
+#main aside#sidebar p.elect-donate-jump a:hover, #main aside#sidebar p.elect-newsletter-jump a:hover, #main aside#sidebar p.elect-cta-jump a:hover {
   text-decoration: none;
 }
-#main aside#sidebar p.elect-donate-jump a:active, #main aside#sidebar p.elect-newsletter-jump a:active {
+#main aside#sidebar p.elect-donate-jump a:active, #main aside#sidebar p.elect-newsletter-jump a:active, #main aside#sidebar p.elect-cta-jump a:active {
   position: relative;
   top: 1px;
 }
